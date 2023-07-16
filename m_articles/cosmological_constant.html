@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./myhtmlarticles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+  <script>
+
+     const vars = {
+        "imageURL": 'https://live.staticflickr.com/65535/49757380101_5dcf8966c5_b.jpg',
+        "description": "From his \"biggest mistake of his life\" to a constant widely important in astrophysics, Einstein's Cosmological constant had been a riddle for over 7 decades.",
+        "title": "The Cosmological Constant",
+        "url": "melanynadine.github.io?my_articles",
+        "site_name": "Mel's Blog"
+     }
+
+     const article = () => {
+        metas();
+        let content = document.getElementsByTagName("article")[0].innerHTML;
+        let body = document.getElementById("article");
+
+        body.innerHTML = "<h1>"+vars["title"]+"</h1>" +'<p id="description">'+vars["description"] + '</p>' + '<p id="author">Melany Nadine Monroy Icaza</p>' +'<img src='+vars["imageURL"]+'>' + '<article>'+content+'</article>';
+     }
+
+     const metas = () => {
+        let head = document.getElementsByTagName("HEAD")[0];
+        head.innerHTML += '<title>'+vars["title"]+'</title>'
+        + '<meta property="og:title" content="'+vars["title"]+'">'
+        + '<meta property="og:image" content="'+vars["imageURL"]+'">'
+        + '<meta property="og:site_name" content="'+vars["site_name"]+'">'
+        + '<meta property="og:url" content="'+vars["url"]+'">';
+        var metaDescription = document.createElement('meta');
+        metaDescription.setAttribute('property','og:description');
+        metaDescription.content = vars["description"];
+        head.appendChild(metaDescription);
+        return head;
+     }
+
+  </script>
+</head>
+
+<body onload="article();">
+   <section id="article">
+      <article>
+        There have been debates surrounding the cosmological constant since its initial proposal in 1917 as a parameter that, when inserted into the original gravitational field equation, raises a solution among many that could be interpreted as proof that the universe remains static. However, in 1931, Hubble, after whom the most renowned telescope in the field is named, discovered the first glimpses of
+      what appeared to be an expanding universe. Einstein quickly acknowledged his apparent error, and according to Gamow (1970), he referred to it as "the biggest mistake of his life." Since then, the core of the debate has revolved around the existence of the constant. In this context, from Hubble's discovery until 1998, astrophysicists assigned the constant a value of zero. However, in 1998, everything changed, reigniting the debate. What happened in 1998 that altered the academic consensus until that point and continues to drive ongoing research? Well, in 1998, the Supernova Cosmology Project presented the first evidence for a positive, low-density cosmological constant that would cause the universe to expand indefinitely (Perlmutter et al., 1998).
+      <br>
+      In simpler terms, Einstein, alongside other notable physicists of his time, held the belief that the universe was static. As a result, he introduced the cosmological constant with a value of 0. This development followed his completion of the formulations of general relativity between 1915 and 1916. In 1917, Einstein attempted to apply his new theory to the entire universe. To achieve this, he began with the assumption that the universe was static. However, he encountered a challenge when no static solution, other than Newtonian gravitation, could be derived from his original equations. To overcome this hurdle, he made modifications by introducing a new term involving a parameter, which later became denoted by Λ known as the cosmological constant (Weinberg, 1989).
+      <br>
+      Prior to the discovery of an expanding universe in 1931, it was widely believed that the cosmological constant, if it existed, would be intrinsically linked to a static universe. In other words, the contradiction of a static universe at that time implied the contradiction of the cosmological constant's existence. This viewpoint is evident in the reaction of the physics community and even Einstein himself to the new discovery. They denied the cosmological constant and regarded its conception as an error. At the time when Steven Weinberg wrote his essay titled "The Problem of the Cosmological Constant," doubts were already emerging within the physics community regarding the rejection of the constant. Weinberg expressed this sentiment by stating, "Physics is going through a crisis."
+      <br>
+      By the publication of the results from the Supernova cosmology project in 1998, the existence of the cosmological constant was already under discussion in the scientific community, but this time with a non-zero value. As early as 1995, Lawrence Krauss and Michael Turner published an article in Springer titled "The Cosmological Constant is Back." In this article, they argued that a series of observations suggested the presence of a non-zero cosmological constant in the universe. Therefore, it can be inferred that the physics community had already anticipated the results that the Supernova cosmology project confirmed, indicating that this discovery merely validated suspicions that had been present since the late 1980s.
+      <br>
+        
+      If you paid close attention, you might question the necessity of a cosmological constant altogether. After all, it appeared with the sole purpose to support the assumption of a static universe, which has since been confirmed to be in expansion. So, why not simply discard the cosmological constant? Weinberg elucidates that in the study of vacuum energy density, any contribution manifests as a cosmological constant. Hence, it appears that with or without Einstein, sooner or later this constant would have been postulated.
+      <br>
+      
+      Nowadays the value of the cosmological is not precisely known, though some values are predicted, such as \(\Lambda = 1.1056 \times 10^{-52} m^{-2}\) or \(\Lambda = 1.934\times 10^{-35} s^{-2}\).
+
+      <h2>An eyesight to the formulation</h2>
+
+      The original Einstein Field Equation, as set in a series of papers from 1915 to 1916, one of them titled "<i>Die Feldgleichungen der Gravitation</i>" (The field equation of gravitation) is:
+        $$
+          G_{im} = -x\bigg(T_{im}-\dfrac{1}{2} g_{im} T\bigg)
+        $$
+        Where \( G_{im} \) is the trace-reversed Ricci tensor (also known as Eintein tensor), \(T_{im}\) is the Ricci curvature tensor, \(g_{im}\) is the fundamental tensor and \(T\) is the scalar or the energy tensor of the matter. Nevertheless, the formulation that lead to the cosmological constant is detailed in his paper <i>Kosmologische Betrachtungen zur Allegemeinen Relativitätstheorie</i> (Cosmological Considerations to the General Relativity Theory). Therein, he makes an extension to the Poisson equation, as follows.
+        $$
+          \Delta\varphi - \lambda\varphi = 4\pi K \rho \tag{1}
+        $$
+
+        In this equation \(\lambda\) is the cosmological constant, but it becomes properly defined and set later. This extension is made to deal with the problem that the original Poisson equation along with the Newtonian theory arose: in a static finite universe with infinite great total mass, the universe would collapse or expand forever.
+
+        <br>
+
+        Now, the equations that might be deemed as "the core" of the formulation take part in the following system of equations, as set in the original paper:
+      $$
+        \begin{matrix}
+          G_{uv} = -x\bigg(T_{\mu v} - \dfrac{1}{2} g_{\mu v} T\bigg) \\
+          G_{uv} = - \dfrac{\partial}{\partial x_{\alpha}} \binom{\mu v}{\alpha} + \binom{\mu \alpha}{\beta} \binom{\nu \beta}{\alpha} + \dfrac{\partial^{\Upsilon}lg\sqrt{-g} }{\partial x_{\mu} \; \partial x_{\nu}} - \binom{\mu\nu}{\alpha} \dfrac{\partial \; lg\sqrt{-g}}{\partial x_{\alpha}}
+        \end{matrix} \tag{2}
+      $$
+
+      To understand a little bit better the context without deepen into the math, two important figures are to be explained. The first, is the contravariant energy tensor of the simple form:
+
+      $$
+        \begin{pmatrix}
+          0 & 0 & 0 & 0 \\
+          0 & 0 & 0 & 0 \\
+          0 & 0 & 0 & 0 \\
+          0 & 0 & 0 & \rho \\
+        \end{pmatrix} \tag{3}
+      $$
+
+      and the equation that follows from another set of equations beyond the scope of this simple formulation:
+      $$
+        g_{\mu \nu}= - \bigg( \delta_{\mu\nu} + \dfrac{x_{\mu} x_{\nu}}{R^2 - (x^2_1 + x_2^2 + x_3^2)} \bigg) \tag{4}
+      $$
+      
+      Which is set to be in accordance with \( g_{44} = 1\) and \(g_{14} = g_{24} = g_{34} = 0\), which directly arises from (3)
+      <br>
+
+      Einstein aknowledges the fact that the system of equations as hereby tagged (1) is not satisfied if values for \(g_{\mu\nu}\) as given previously (that is, 0,0,0,1), along with equations (3) and (4) are inserted, and that if the system as set in (2) is the only one compatible with general relativity, then the theory would not admit a spacially finite universe (and a static one) which, let us recall, at the time was the academic consensus. To deal with this problem, he immediately introduces us a constant "by present unknown" that would be admissible in (2), analogous to the extension made in the Poisson equation as detailed in (1) and that does not destroy the general covariance, as follows.
+      $$
+        G_{\mu\nu} - \textcolor{red}{\lambda} g_{\mu\nu} = -x\bigg( T_{\mu\nu} - \dfrac{1}{2} g_{\mu\nu} T \bigg) \tag{5}
+      $$
+
+      The cosmological costant is born. This is the original formula as Einstein wrote down in his paper. The formula widely accepted today is:
+      $$
+        R_{\mu\nu} - \dfrac{1}{2} R g_{\mu\nu}   + \textcolor{red}{\Lambda} g_{\mu\nu} = \kappa T_{\mu\nu} 
+      $$
+
+      Notice that some variables changed, but most important the sign of \(\kappa\). This, however is simply due to sign convention adoption. In here the Misner - Thorne - Wheeler (MTW) sign convention is used for the Ricci tensor, changing the original \(-\kappa\) to \(\kappa\).
+       <br>
+        There is still a lot going around the cosmological constant today, and its play in the understanding of dark energy, supersymmetry and string theory. But certainly there is no doubt at present that the cosmological constant exists and the universe is expanding. Einstein himself would probably have been surprised to know that there was no mistake after all and that the contributions he made to modern physics are way more valuable than in the previous century thought.
+
+        <h2>References</h2>
+
+        Caroll, S. M. (1999). The Cosmological Constant. <i>Living Reviews in Relativity</i>. https://doi.org/10.12942/lrr-2001-1
+
+        <br>
+
+        Weinberg, S. (1989). The Cosmological Constant Problem. <i>Review of Modern Physics</i> 61(1). https://doi.org/10.1103/RevModPhys.61.1
+
+        <br>
+
+        Carmeli, M and Kuzmenko, T, (2002). Value of the Cosmological Constant in the Cosmological Relativity Theory. <i>International Journal of Theoretical Physics</i> 41(1). https://doi.org/10.1023/A:1013229818403
+
+        <br>
+
+        Einstein, A. (1915). Die Feldgleichungen der Gravitation. <i>Akademie der Wissenschaften</i>, 844-847.
+
+        <br>
+
+        Einstein, A. (1917). Kosmologische Betrachtungen zur Allegemeinen Relativitätstheorie. <i>Akademie der Wissenschaften</i>, 144-152. 
+
+      </article>
+   </section>
+</body>
+
+</html>

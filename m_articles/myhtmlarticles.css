@@ -1,0 +1,44 @@
+body{
+   margin: 0;
+   width: 100vw;
+   font-size: 1.2vw;
+   line-height: 1.8;
+   display: flex;
+   justify-content: center;
+}
+
+h1{
+   font-size: 2.5vw;
+}
+
+img{
+   width: 100%;
+   margin: 2vw 0;
+}
+
+article{
+   text-align: justify;
+   justify: inter-word;
+}
+
+br{
+   margin-bottom: 2vw;
+}
+
+#author{
+   color: #550a0a;
+   font-size: 1.1vw;
+   font-family: sans-serif;
+   font-style: italic;
+}
+
+#description{
+   font-style: italic;
+   color:grey;
+   line-height: 1.5;
+}
+
+#article{
+   margin: 3vw 0;
+   width: 60%;
+}
