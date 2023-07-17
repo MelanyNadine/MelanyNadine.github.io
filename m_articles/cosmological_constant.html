@@ -20,6 +20,7 @@
         "title": "The Cosmological Constant",
         "url": "melanynadine.github.io?my_articles",
         "site_name": "Mel's Blog",
+        "tag": "Web Article",
      }
 
      const article = () => {
@@ -27,22 +28,31 @@
         let content = document.getElementsByTagName("article")[0].innerHTML;
         let body = document.getElementById("article");
 
-        body.innerHTML = "<h1>"+vars["title"]+"</h1>" +'<p id="description">'+vars["description"] + '</p>' + '<p id="author">Melany Nadine Monroy Icaza</p>' +'<img src='+vars["imageURL"]+'>' + '<article>'+content+'</article>';
+        body.innerHTML = `
+          <h1>${vars["title"]}</h1>
+          <p id="description">${vars["description"]}</p>
+          <p id="author">Melany Nadine Monroy Icaza</p>
+          <img src="${vars["imageURL"]}">
+          <article>${content}</article>
+        `;
      }
 
      const metas = () => {
         let head = document.getElementsByTagName("HEAD")[0];
-        head.innerHTML += '<title>'+vars["title"]+'</title>'
-        + '<meta property="og:title" content="'+vars["title"]+'">'
-        + '<meta property="og:image" content="'+vars["imageURL"]+'">'
-        + '<meta property="og:site_name" content="'+vars["site_name"]+'">'
-        + '<meta property="og:url" content="'+vars["url"]+'">';
-        var metaDescription = document.createElement('meta');
+        head.innerHTML += `
+          <title>${vars["title"]}</title>
+          <meta property="og:title" content="${vars["title"]}">
+          <meta property="og:image" content="${vars["imageURL"]}">
+          <meta property="og:site_name" content="${vars["site_name"]}">
+          <meta property="og:url" content="${vars["url"]}">
+        `;
+        let metaDescription = document.createElement('meta');
         metaDescription.setAttribute('property','og:description');
         metaDescription.content = vars["description"];
         head.appendChild(metaDescription);
         return head;
      }
+
 
   </script>
 </head>
