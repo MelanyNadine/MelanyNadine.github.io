@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./myhtmlarticles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+  <script>
+
+     const vars = {
+        "imageURL": 'https://melanynadine.github.io/images/covid.jpg',
+        "description": "Coronavirus disease (COVID-19) outbreak has caused a global economic crisis with a major impact on Latin America region...",
+        "title": "Coronavirus disease spreading linked to socio-economical factors in Quito-Ecuador",
+        "url": "melanynadine.github.io?my_articles",
+        "site_name": "Mel's Blog",
+        "tag": "Data Report",
+     }
+
+     const article = () => {
+        metas();
+        window.location.assign("https://melanynadine.github.io")
+     }
+
+     const metas = () => {
+        let head = document.getElementsByTagName("HEAD")[0];
+        head.innerHTML += `
+          <title>${vars["title"]}</title>
+          <meta property="og:title" content="${vars["title"]}">
+          <meta property="og:image" content="${vars["imageURL"]}">
+          <meta property="og:site_name" content="${vars["site_name"]}">
+          <meta property="og:url" content="${vars["url"]}">
+        `;
+        let metaDescription = document.createElement('meta');
+        metaDescription.setAttribute('property','og:description');
+        metaDescription.content = vars["description"];
+        head.appendChild(metaDescription);
+        return head;
+     }
+
+  </script>
+</head>
+
+<body onload="article();">
+   
+</body>
+
+</html>
