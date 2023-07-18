@@ -43,18 +43,18 @@ const articles = {
 ******************************************/
 
 const currentUrl = {
-	"file:///home/devian/Projects/myGithubPage/index.html": 'home',
-	"file:///home/devian/Projects/myGithubPage/index.html?home": 'home',
-	"file:///home/devian/Projects/myGithubPage/index.html?my_articles": 'my_articles',
-  "file:///home/devian/Projects/myGithubPage/index.html?my_art": 'my_art',
-  "file:///home/devian/Projects/myGithubPage/index.html?contact_me": 'contact_me',
+	"https://melanynadine.github.io/": 'home',
+	"https://melanynadine.github.io/?home": 'home',
+	"https://melanynadine.github.io/?my_articles": 'my_articles',
+  "https://melanynadine.github.io/?my_art": 'my_art',
+  "https://melanynadine.github.io/?contact_me": 'contact_me',
 }
 
-var tmp = "file:///home/devian/Projects/myGithubPage/index.html";
-var uri = window.location.href;
-var url = window.location.protocol + '//' + tmp + window.location.host + '?';
-const host = 'https://melanynadine.github.io';
+const host = 'https://melanynadine.github.io/';
 const mail =  "melany_nadine@hotmail.com";
+var uri = window.location.href;
+var url = window.location.protocol + '//' + host + '/?';
+
 
 /* ******************************************
 /*			RESPONSIVE LAYOUT GENERAL VARIABLES
@@ -235,7 +235,7 @@ const xmlRequest = (body, url, key) => {
 	xhr.addEventListener("load", reqListener);
 	xhr.open("GET", url);
 	xhr.send();
-	return this.test;
+	return this.request;
 }
 
 class Article {
