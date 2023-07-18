@@ -53,7 +53,7 @@ const currentUrl = {
 const host = 'https://melanynadine.github.io/';
 const mail =  "melany_nadine@hotmail.com";
 var uri = window.location.href;
-var url = window.location.protocol + '//' + host + '/?';
+var url = window.location.protocol + '//' + host + '?';
 
 
 /* ******************************************
