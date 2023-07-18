@@ -1,19 +1,102 @@
 <!DOCTYPE html>
+<html class="js logged-in client-root js-focus-visible sDN5V" lang=es>
 
-<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+   <meta charset=utf-8>
+   <meta http-equiv=X-UA-Compatible content="IE=edge">
+   <title>Melany Nadine</title>
+   <meta name=robots content="noimageindex, noarchive">
+   <meta name=mobile-web-app-capable content=yes>
+   <meta id=viewport name=viewport content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+   <link rel="stylesheet" href="./index.css">
+   <link href="https://fonts.googleapis.com/css2?family=Ole&display=swap" rel="stylesheet">
+   <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-serif" type="text/css"/>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+   <script src="./index.js"></script>
+   
 </head>
 
-<body>
+<body onload="frontEnd()">
 
-<a href="https://melanynadine.github.io/free-articles"><img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" /></a>
-  
+    <noscript>This website needs javascript to work. Abilitate javascript in order to watch its content!</noscript>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>¿Qué miras? ._. evidentemente aún no he trabajado sobre mi página ni mi repositorio.</p>
+    <!-- - - - - - - - - - - - - - - - - - -
+    |                HEADER
+    |--------------------------------------->
+
+    <header>
+
+      <!-- YEAR -->
+        <div id="year" class="top-bar"></div>
+
+      <!-- NAV BAR -->
+        <nav>
+            <ul type="none" id="hamburger"></ul>
+            <ul type="none" id="nav-bar"></ul>
+        </nav>
+    </header>
+
+
+	 <!-- - - - - - - - - - - - - - - - - - - -
+    |                BODY
+    |--------------------------------------->
+
+
+		<!-- HOME -->
+
+	<section id="home_section" style="display:none">
+
+    <!-- Profile Pic -->
+    <div>
+      <img id="profile-pic" src="./img/me_j15.jpg">
+    </div>
+
+    <!-- Pane -->
+
+	  <div id="pane">
+      
+      <p>
+        Hi there! This is the space a created
+        myself to share some stuff with the world. As you might already know if you personally
+        know me, I'm a person with several interests,
+        most of them related to STEM field.<br>
+        I assume you noticed the dark tone of the page; I always use black, and I do like rock music
+        as well as some pop artist, like Sia or Imagine Dragons. My favourite genres are Deathrock, New Wave and Darkwave though.
+      </p>
+
+      <h2>A bit about my background</h2>
+
+      <p>
+        I'm based in Quito-Ecuador. This is a beautiful and
+        diverse country where people use to be gentile. not
+        to mention how beautiful landscapes are. <br>
+          I love learning, so throughout the years I've been dedicated to learn a lot of stuff. Among those things are programming, languages, history, economics, psychology, computer science but focused mainly on stem disciplines previous to the beginning of my career. <br>
+          I'm majoring in physics and for the record, despite I've found this career tremendously challenging I've also found it beautiful. Ironically I started learning programming due to the fact that it is mandatory in the discipline; prior to the journey I didn't even know how to handle Windows OS properly.
+
+          I speak spanish, english, portuguese, german, french, and italian (the
+        order is how proficient I am in each of them, from C2 to A2). My goal is to speak at least ten languages before I reach 35. In case you have question or need to contact me, feel free to do it in your native language if listed.
+      </p>
+
+		  <h2>About this, my little space</h2>
+
+      <p>Since I've created since to share some stuff (mine and some things I consider everybody should have access too), you'll find here some articles, projects, readings and some art of mine that I've worked on since teen. I love painting, drawing, playing the bass and singing. If you have questions regarding the content hereby provided, Feel free to contact me.</br>
+
+        Welcome to my little space :)
+      </p>
+	  </div>
+	</section>
+
+   <section id="my_articles_section" style ="display:none"></section>
+
+   <section id="my_art_section" style="display:none"></section>
+
+   <section id="contact_me_section" style="display:none"></section>
+
+    <footer>
+	     Melany Nadine Monroy Icaza
+    </footer>
 
 </body>
+
 </html>
