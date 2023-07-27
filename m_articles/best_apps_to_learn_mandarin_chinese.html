@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./myhtmlarticles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+  <script>
+
+     const vars = {
+        "imageURL": 'https://melanynadine.github.io/images/chinese_mandarin.jpg',
+        "description": "",
+        "title": "Best Apps to Learn Mandarin Chinese",
+        "url": "melanynadine.github.io?my_articles",
+        "site_name": "Mel's Blog",
+        "tag": "Web Article",
+     }
+
+     const article = () => {
+        metas();
+        let content = document.getElementsByTagName("article")[0].innerHTML;
+        let body = document.getElementById("article");
+
+        body.innerHTML = `
+          <h1>${vars["title"]}</h1>
+          <p id="description">${vars["description"]}</p>
+          <p id="author">Melany Nadine Monroy Icaza</p>
+          <img src="${vars["imageURL"]}">
+          <article>${content}</article>
+        `;
+     }
+
+     const metas = () => {
+        let head = document.getElementsByTagName("HEAD")[0];
+        head.innerHTML += `
+          <title>${vars["title"]}</title>
+          <meta property="og:title" content="${vars["title"]}">
+          <meta property="og:image" content="${vars["imageURL"]}">
+          <meta property="og:site_name" content="${vars["site_name"]}">
+          <meta property="og:url" content="${vars["url"]}">
+        `;
+        let metaDescription = document.createElement('meta');
+        metaDescription.setAttribute('property','og:description');
+        metaDescription.content = vars["description"];
+        head.appendChild(metaDescription);
+        return head;
+     }
+
+
+  </script>
+</head>
+
+<body onload="article();">
+   <section id="article">
+      <article>
+        Nowadays, learning a language seems like an easier task it was before the internet era. More people around the globe are willing to become polyglots or, at least, speak fluently in two languages (apart from their mother language). The reason may not be surprising: in a globalized world where knowing a second language makes the difference between getting a new job or promotion, learning a language is not something that only academics or translator are compelled to do anymore.
+          <br>
+          In the twentieth century, until around 1930, the language of the academia was primarily German (Altbach, 2007). This is why for many scientist willing to gain wide recognition, it was mandatory to publish in German. It is also why some of the most important papers of the time were written in this language despite the author being part of the Anglosphere. After WW2 this changed, and with the hegemony of the United States over the world, English had become the top language for academia. This remains true until today. This change motivated the rise of English speakers worldwide.<br>
+
+          The number of people willing to learn a language is proportional to how influential and how many people speak the language in matter. Currently, the most spoken language is English -no surprise here- but the second most spoken and popular language is Mandarin Chinese, with 1,118,000,000 speakers worldwide. Just as before, Mandarin Chinese is getting mandatory in industry and academia, following China's current position in the world. For some scholars Mandarin Chinese is the "future English" in terms of what English was to German in the past century. In case you want to check the most spoken languages, you can find a list along with facts <a href="https://www.langoly.com/most-spoken-languages/">here</a>.<br>
+
+          The number of Mandarin Chinese learners has also increased in the past two decades. Learning Mandarin Chinese can be a herculean task, primarily due to its complex nature. In fact, along with being the second most-spoken language, it is also ranked the hardest to learn for English speakers (and by extension, for all Germanic and Romance languages speakers). If you feel curious about the most challenging languages, you can find a top 12 list of the hardest languages to learn <a href="https://www.langoly.com/hardest-languages-to-learn/">here</a>. Nevertheless, the methods by which learners tackle a language have changed as well, specially with the internet era. Nowadays, we have in hand a lot of applications to help us through the learning path of a language, and it came in time! Learning a language becomes easier with audiovisual resources at hand. <br>
+
+          So here is a useful list with the best apps to learn Mandarin Chinese.
+
+          <h3>Duolingo</h3>
+
+          According to its official website, Duolingo was founded in 2011 by Luis von Ahn and Severin Hacker. It was officially launched in 2012 and ever since it has been gaining a lot of popularity throughout the years. One of its more notable products is Duolingo English Test (DET) which is a widely accepted proficiency English language test admissible to several higher education institutions worldwide. Each language has its own rules and ways of assessing the learner, depending on who developed the courses, a task that was before in the hands of volunteers with expertise in their native language. However, most of the courses share similar learning strategies, such as flashcards, audio assessments, speaking assessments and building phrases upon blocks of words by translating the sentence provided by the exercises. Some courses have the feature that the learner must type the translation of a sentence to the language they're learning, following puctuation rules. That's the case of Swedish, Polish and some other more. <br>
+
+            In order to get the full advantage of the application and following that as any application it has its limits, it's highly recommendable to use resources such as boards and notes to memorize and write correctly the symbols you learn in the way. It is also important to take notice on how each symbol is pronounced, along with its proper tone. Since Mandarin Chinese is a tonal language, and according to the tone, one expression can mean one thing or another, Duolingo provides as introductory material a guidebook with examples to flat tone, rising tone, dip tone, and falling tone. Duolingo course on Mandarin Chinese is simply referred to <i>Chinese</i>, since Mandarin Chinese is a dialect of Chinese language.
+
+            Some key features Duolingo has:
+
+            <ul>
+              <li>Flashcards</li>
+              <li>Typing exercises</li>
+              <li>Conversational exercises</li>
+              <li>Listening exercises</li>
+              <li>Speaking exercises</li>
+              <li>Grammar lessons</li>
+            </ul>
+
+          <h3>Memrise</h3>
+
+          According to Memrise official website, Memrise was founded by Ed Cooke, Ben Whately and Greg Detre. Greg has a PhD in Neuroscience by Princeton whereas Ben taught himself Chinese. They both applied their knowledge in the app development, focusing on research-driven memorizing tecniques. Memrise is also powered by AI and a significant difference with its competitor Duolingo, is that Memrise allows you to put notes called "mems" to each new word, containing anything that helps you remembering such word. Memrise also uses flashcards, listening excercises and speaking practice.<br>
+
+          A new feature Memrise implemented is the speaking practice with unlimited human-like conversation practice, powered by GPT-3, the conversational AI model developed by OpenAI that first powered ChatGPT. Memrise also integrates content from Youtube and Tiktok to offer you a better learning experience. Just like Duolingo, Memrise also refers the course on Mandarin Chinese as <i>Chinese</i>. Since one of the creators has a personal experience learning this wonderful language, undoubtedly, this is a great option when it comes to learning Mandarin Chinese and other languages as well.
+
+          Some key features Memrise has:
+
+          <ul>
+            <li>Flashcards</li>
+            <li>Listening exercises</li>
+            <li>Speaking exercises</li>
+            <li>Grammar lessons</li>
+            <li>AI assistant</li>
+            <li>Human-like conversational exercises</li>
+            <li>Memory booster notes (mems)</li>
+          </ul>
+
+          <h3>If I use an App to learn Chinese, will it suffice?</h3>
+
+          A short answer to this question is no. However, using an app in order to learn Chinese is a great start and it will lead you to an A2 level under the Common European Framework. Along with the app which poses a big help due to highly useful audiovisual resources, you will also need some books. <a href="https://www.langoly.com/best-books-to-learn-chinese/">Here</a> you can find a list of the 9 best books to learn Chinese.
+          
+          <h3>References</h3>
+
+        Altbach, P. G. (2007). The Imperial Tongue: English as the Dominating Academic Language. <i>Economic and Political Weekly</i>, 42(36), 3608–3611. http://www.jstor.org/stable/40276356 <br>
+
+      </article>
+   </section>
+</body>
+
+</html>
