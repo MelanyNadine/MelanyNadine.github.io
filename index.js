@@ -35,7 +35,6 @@ const myArtItems = [
 const articles = {
 	"cosmological-constant": "https://melanynadine.github.io/m_articles/cosmological_constant.html",
   "coronavirus": "https://melanynadine.github.io/m_articles/coronavirus_outbreak_pdf.html",
-  "best-apps-to-learn-chinese": "https://melanynadine.github.io/m_articles/best_apps_to_learn_mandarin_chinese.html"
 }
 
 
