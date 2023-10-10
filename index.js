@@ -34,8 +34,8 @@ const myArtItems = [
 ]
 
 const articles = {
-	"cosmological-constant": "https://melanynadine.github.io/m_articles/cosmological_constant.html",
-  "coronavirus": "https://melanynadine.github.io/m_articles/coronavirus_outbreak_pdf.html",
+	"cosmological-constant": "https://melanynadine.github.io/my-articles/cosmological_constant.html",
+  "coronavirus": "https://melanynadine.github.io/my-articles/coronavirus_outbreak_pdf.html",
 }
 
 const resourcesFolders = {
