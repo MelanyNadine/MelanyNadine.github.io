@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 4vw;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 104, 152);
+}
+
+h1{
+  color: maroon;
+  margin-top: 3.5vw;
+  font-size: 2.5vw;
+}
+
+h3{
+  color: teal;
+  margin-top: 2.5vw;
+  font-size: 1.7vw;
+}
+
+.shell{
+  background-color: black;
+  color: white;
+  padding: 0.5vw 1vw;
+  border-left: 3px solid purple;
+}
+
+.shell::before{
+  content: "$ ";
+}
+
+.note{
+  background-color: lightsalmon;
+  padding: 1vw;
+  max-width: 60vw;
+  width: fit-content;
+  margin: 3vw auto;
+  border-left: 3px solid chocolate;
+}
+
+.note::before{
+  content: "NOTE: "
+}
+
+.editor{
+  background-color: darkslategrey;
+  color: white;
+  padding: 0.5vw 1vw;
+  border-left: 3px solid royalblue;
+}
+
+.jpn{
+  padding: 0.5vw;
+  border: 1px solid darkgray;
+  max-width: 84vw;
+  min-width: 70vw;
+}
+
+.jpn span{
+  color: green;
+  font-weight: bold;
+}
+
+.jpn p{
+  margin: 0;
+}

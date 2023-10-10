@@ -1,6 +1,7 @@
 const tabs = {
 	"About": 'home',
 	"Articles": 'my_articles',
+  "Resources": 'resources',
 	//"Projects": 'projects',
 	"My Art": 'my_art',
 	"Contact me": 'contact_me'
@@ -37,23 +38,18 @@ const articles = {
   "coronavirus": "https://melanynadine.github.io/m_articles/coronavirus_outbreak_pdf.html",
 }
 
+const resourcesFolders = {
+  "Useful Code Pieces": "resources/useful_code_pieces.html",
+  "Non-Imperial Library of Mine": 'https://mega.nz/folder/b4Yh3JAJ#1SEqPYHc31VX-I6sfcwSmA',
+}
+
 
 /* *******************************************
 /*              URLS variables
 ******************************************/
 
-const currentUrl = {
-	"https://melanynadine.github.io/": 'home',
-	"https://melanynadine.github.io/?home": 'home',
-	"https://melanynadine.github.io/?my_articles": 'my_articles',
-  "https://melanynadine.github.io/?my_art": 'my_art',
-  "https://melanynadine.github.io/?contact_me": 'contact_me',
-}
-
-const host = 'https://melanynadine.github.io/';
 const mail =  "melany_nadine@hotmail.com";
-var uri = window.location.href;
-var url = window.location.protocol + '//' + host + '?';
+let currentUrl = window.location.href;
 
 
 /* ******************************************
@@ -77,12 +73,6 @@ document.documentElement.style.setProperty('--innerHeight', windowHeight-gap+'px
 /*			FUNCTIONS AND CLASSES
 *********************************************/
 
-const getUrls = () => {
-	Object.values(tabs).forEach((item) => {
-		let activeUrl = url + item;
-		currentUrl[activeUrl] = item;
-	});
-}
 
 const getYear = () => {
   const currentTime = new Date();
@@ -96,8 +86,11 @@ const getYear = () => {
 *********************************************/
 
 const frontEnd = () => {
+  let home = document.getElementById("home_section");
+  if(!currentUrl.includes('?')){
+    home.style.display='block';
+  }
   getYear();
-	getUrls();
   nav();
 }
 
@@ -134,6 +127,26 @@ const my_articles = () => {
   }
 }
 
+const resources = () => {
+  let myResources = document.getElementById("resources_section");
+	myResources.style.display = "flex";
+  let buttons = document.getElementById("buttons");
+
+  function sortObject(folders) {
+    return Object.keys(folders).sort().reduce(function (result, key) {
+      result[key] = folders[key];
+      return result;
+    }, {});
+  }	
+
+  let sortedFolders =  sortObject(resourcesFolders);
+
+  Object.entries(sortedFolders).forEach(([key, value])=>{
+    buttons.innerHTML += `<a target="_blank" href="${value}"><li>${key}</li></a>`;   
+  });
+
+}
+
 const projects = () => {
 	let projects = document.getElementById("projects_section");
 	projects.style.display = "block";
@@ -141,7 +154,7 @@ const projects = () => {
 }
 
 const my_art = () => {
-	let myArtUrl = host + '/blog/my_art/';
+	let myArtUrl = 'https://melanynadine.github.io/blog/my_art/';
   let artSection = document.getElementById("my_art_section");
   responsiveDisplay(artSection, "block", "grid");
   myArtItems.map( item => artSection.innerHTML += '<div><img src="'+myArtUrl+item+'"></div>'
@@ -166,11 +179,10 @@ const responsiveDisplay = (node, displayOption1, displayOption2) => {
 
 const informativeTextBox = (id, title) => {
   let htmlObject = document.getElementById(id);
-  let htmlInfoObject = '<p id="info-text" >'+title+'</p>';
+  let htmlInfoObject = `<p id="info-text" >${title}</p>`;
   htmlObject.innerHTML += htmlInfoObject;
   htmlObject.onmouseout = function() {document.getElementById("info-text").remove()};
 }
-
 
 class Nav {
 	constructor(navBar, hamburger){
@@ -183,9 +195,10 @@ class Nav {
 	}
 
   identifyActiveTab(){
-    let tab = currentUrl[uri];
-		let activeTab = this.navBar.querySelector("#"+tab+"");
-		activeTab.style.borderBottom = "2px solid "+color['lowWine']+"";
+    let tabStartsAt = currentUrl.indexOf('?')+1;
+    let tab = currentUrl.slice(tabStartsAt);
+		let activeTab = this.navBar.querySelector(`#${tab}`);
+		activeTab.style.borderBottom = `2px solid ${color['lowWine']}`;
     eval(tab+"()");
   }
 
@@ -221,18 +234,17 @@ class Nav {
 }
 
 /*---------------------------------
-/				XHR Request
+/				Articles XHR Request
 ---------------------------------*/
 
 
 const xmlRequest = (body, url, key) => {
-	function reqListener () {
-		var xhrResponse = this.responseText;
+	var xhr = new XMLHttpRequest();
+	xhr.addEventListener("load", () => {
+    var xhrResponse = xhr.responseText;
 		let article = new Article(body, xhrResponse, url, key);
 		return article.layout();
-	}
-	var xhr = new XMLHttpRequest();
-	xhr.addEventListener("load", reqListener);
+  });
 	xhr.open("GET", url);
 	xhr.send();
 	return this.request;

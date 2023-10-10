@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="js logged-in client-root js-focus-visible sDN5V" lang=es>
+
+<head>
+   <meta charset=utf-8>
+   <meta http-equiv=X-UA-Compatible content="IE=edge">
+   <title>Useful Code Pieces</title>
+   <meta name=robots content="noimageindex, noarchive">
+   <meta name=mobile-web-app-capable content=yes>
+   <meta id=viewport name=viewport content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+   <link rel="stylesheet" href="./code-pieces.css">
+   <script src="./index.js"></script>
+   
+</head>
+
+<body>
+
+    <noscript>This website needs javascript to work. Abilitate javascript in order to watch its content!</noscript>
+
+    <div class="guide">
+      <ol>
+        <li><a href="#django">Django</a></li>
+        <li><a href="#spring-boot">Spring Boot</a></li>
+        <li><a href="#ipython">I Python</a></li>
+      </ol>
+    </div>
+    
+    <section id="django">
+      <h1>Django</h1>
+
+      <div>
+        <h3>Projects creation and configuration</h3>
+        <div>
+          <p>Create project</p>
+          <code class="shell">django-admin startproject project_name</code>
+        </div>
+        
+        <div>
+          <p>Create app</p>
+          <code class="shell">python manage.py startapp app_name</code>
+        </div>
+      </div>
+
+      <div>
+        <h3>Virtual environment handling</h3>
+        <div>
+          <p>Create virtual environment with <code>pipenv</code> package</p>
+          <code class="shell">pipenv run</code> or
+          <code class="shell">pipenv shell</code>
+        </div>
+        
+      </div>
+
+      <section id="spring-boot">
+        <h1>Spring Boot</h1>
+
+        <div>
+          <h3>Install project</h3>
+          <div>
+            <p>The following command installs Spring Boot project and skips the tests with <code>--DskipTests</code> flag. If tests are set up then just run the command without the flag. Run this command is necessary each time pom.xml is updated with new dependencies and/or aplication.properties is edited.</p>
+
+            <code class="shell">./mvnw clean install -DskipTests</code>
+
+            <p class="note">The command is to be run in the main directory of the project, where mvnw and mvnw.cmd lay.</p>
+
+            <p>Keep in mind that if <code class="editor">spring.jpa.hibernate.ddl-auto=update</code> line inside <code>aplication.properties</code> is set up to <code>create</code> instead of <code>update</code>, the entire database is deleted and redone.</p>
+
+          </div>
+
+          <h3>Run project</h3>
+
+          <code class="shell">./mnvw spring-boot:run</code>
+        </div>
+      </section>
+
+      <section id="ipython">
+        <h1>I Python</h1>
+        <div>
+          <h3>Basic imports</h3>
+          <div class="jpn">
+            <code>
+              <p><span>import</span> numpy <span>as</span> np</p>
+              <p><span>import</span> matplotlib.pyplot <span>as</span> plt</p>
+              <p><span>import</span> seaborn <span>as</span> sb</p>
+            </code>
+          </div>
+        </div>
+      </section>
+    </section>
+
+</body>
+
+</html>

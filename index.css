@@ -2,6 +2,16 @@
 /            GENERAL
 /*******************************/
 
+@font-face {
+  font-family: 'CMUSerifRoman';;
+  src: url(./fonts/cmu.serif-roman.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  src: url(./fonts/Ubuntu-Regular.ttf);
+}
+
 :root{
   --wine: rgb(80, 10, 10);
   --midwine: #890808;
@@ -41,12 +51,13 @@
  }
 
  section{
-  min-height: var(--innerHeight);
+  min-height: 81.8vh;
  }
 
  p{
   font-size: 1.3vw;
  }
+
 
  /*******************************
 /            HOME
@@ -146,7 +157,7 @@
   background-color: chartreuse;
 }
 .badges li:nth-child(4n){
-  background-color: blueviolet;
+  background-color: blueviolet;font-family: 'Ubuntu', sans-serif;
 }
 
 .badges li:nth-child(5n){
@@ -246,6 +257,49 @@
 }
 
 /*******************************
+/         RESOURCES
+/******************************/
+
+#resources_section{
+  align-items: center;
+}
+
+.resources_section a{
+  text-decoration: none;
+  color: black;
+  margin: 2vw 0;
+}
+
+#buttons {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  height: fit-content;
+}
+
+#buttons li{
+  background-color: white;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 1.7vw;
+  padding: 0.7vw 1.2vw;
+  border-radius: 1vw;
+  border: 5px solid #550a0a;
+  text-align: center;
+  width: 19vw;
+  min-height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vw;
+}
+
+#buttons li:hover{
+  background-color: black;
+  border: 5px solid black;
+  color: white;
+}
+
+/*******************************
 /       MY ART SECTION
 /*******************************/
 
@@ -266,6 +320,16 @@
 /*******************************
 /       CONTACT ME SECTION
 /*******************************/
+
+.contact_me_section {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.contact_me_section p {
+  color: rgba(0, 0, 0, 0);
+  background-color: red;
+}
 
 .contact_window{
   width: fit-content;
