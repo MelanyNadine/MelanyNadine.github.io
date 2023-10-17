@@ -131,6 +131,7 @@ const resources = () => {
   let myResources = document.getElementById("resources_section");
 	myResources.style.display = "flex";
   let buttons = document.getElementById("buttons");
+  responsiveDisplay(buttons, "block", "flex");
 
   function sortObject(folders) {
     return Object.keys(folders).sort().reduce(function (result, key) {
@@ -164,17 +165,14 @@ const my_art = () => {
 const contact_me = () => {
   let contactSection = document.getElementById("contact_me_section");
   contactSection.style = 'display:flex;align-items:center;justify-content:center;';
-  contactSection.innerHTML += '<div class="contact_window"><p>Feel free to send me an email to the following direction:</p><a href="mailto:'+mail+'">'+mail+'</a></div>'
+  contactSection.innerHTML += `<div class="contact_window"><p>Feel free to send me an email to the following direction:</p><a href="mailto:${mail}">${mail}</a></div>`;
 }
 
 const responsiveDisplay = (node, displayOption1, displayOption2) => {
-  let option1 = "node.style = 'display:'+displayOption1+';' ";  
-  let option2 = " node.style = 'display:'+displayOption2+';' ";
-  windowWidth <= 700 ? eval(option1) : eval(option2);
-  mobileBodyWidth.addListener(ifWidthChanges);
-  function ifWidthChanges(){
-    mobileBodyWidth.matches ?  eval(option1) : eval(option2);
-  }
+  let option1 = () => node.style = `display:${displayOption1}`;
+  let option2 = () => node.style = `display:${displayOption2}`;
+  windowWidth <= 700 ? option1() : option2();
+  mobileBodyWidth.addListener(()=> mobileBodyWidth.matches ? option1() : option2() );
 }
 
 const informativeTextBox = (id, title) => {
@@ -195,11 +193,19 @@ class Nav {
 	}
 
   identifyActiveTab(){
-    let tabStartsAt = currentUrl.indexOf('?')+1;
-    let tab = currentUrl.slice(tabStartsAt);
+    let tabStartingPosition = currentUrl.indexOf('io')+2;
+    let tabClicked = currentUrl.indexOf('?', tabStartingPosition);
+    let tab;
+    if(tabClicked!=-1){
+      tab = currentUrl.slice(tabClicked+1);
+      eval(`${tab}()`);
+    }else{
+      tab = 'home';
+      home();
+    };
 		let activeTab = this.navBar.querySelector(`#${tab}`);
 		activeTab.style.borderBottom = `2px solid ${color['lowWine']}`;
-    eval(tab+"()");
+    
   }
 
   createNavBar(){
@@ -219,10 +225,12 @@ class Nav {
   addHamburguerFunctionality(){
     this.hamburger.addEventListener('click', ifHamburgerGetsClicked);
     function ifHamburgerGetsClicked(){
-      document.getElementById("hamburger").style = 'display:none';
       let navBar = document.getElementById("nav-bar");
-      responsiveDisplay(navBar, "block", "flex");
-      navBar.style = 'display:block';
+      if (navBar.style.display == "none"){
+        navBar.style.display = "block";
+      }else{
+        navBar.style.display = "none";
+      }
     }
   }
 
@@ -230,6 +238,8 @@ class Nav {
 		this.createNavBar();
     this.fillHamburger();
 		this.addHamburguerFunctionality();
+    let navBar = document.getElementById("nav-bar");
+    responsiveDisplay(navBar, "none", "flex");
 	}
 }
 
