@@ -123,7 +123,7 @@ const my_articles = () => {
   Object.keys(articles).forEach(fetchArticle, this);
 
   function fetchArticle(key){
-    xmlRequest(articlesSection, articles[key], key);
+    xmlArticleRequest(articlesSection, articles[key], key);
   }
 }
 
@@ -155,11 +155,11 @@ const projects = () => {
 }
 
 const my_art = () => {
-	let myArtUrl = 'https://melanynadine.github.io/blog/my_art/';
+	let myArtJson = `${currentUrl}images/my-art.json`;
+  //let myArtJson = 'file:///home/devian/Github/myGithubPage/melanynadine.github.io/images/my-art.json';
   let artSection = document.getElementById("my_art_section");
   responsiveDisplay(artSection, "block", "grid");
-  myArtItems.map( item => artSection.innerHTML += '<div><img src="'+myArtUrl+item+'"></div>'
-  );
+  console.log(xmlRequest(myArtJson));
 }
 
 const contact_me = () => {
@@ -244,17 +244,25 @@ class Nav {
 }
 
 /*---------------------------------
-/				Articles XHR Request
+/				    XHR Requests
 ---------------------------------*/
 
 
-const xmlRequest = (body, url, key) => {
+const xmlArticleRequest = (body, url, key) => {
 	var xhr = new XMLHttpRequest();
 	xhr.addEventListener("load", () => {
     var xhrResponse = xhr.responseText;
 		let article = new Article(body, xhrResponse, url, key);
 		return article.layout();
   });
+	xhr.open("GET", url);
+	xhr.send();
+	return this.request;
+}
+
+const xmlRequest = url => {
+	var xhr = new XMLHttpRequest();
+	xhr.addEventListener("load", () => xhr.responseText );
 	xhr.open("GET", url);
 	xhr.send();
 	return this.request;
