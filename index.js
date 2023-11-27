@@ -30,7 +30,6 @@ const myArtItems = [
   'karen_medico.jpg',
   'luciano.jpg',
   'suki.jpg',
-  'the-clown.jpg',
 ]
 
 const articles = {
@@ -50,6 +49,7 @@ const resourcesFolders = {
 
 const mail =  "melany_nadine@hotmail.com";
 let currentUrl = window.location.href;
+let baseUrl = 'https://melanynadine.github.io/';
 
 
 /* ******************************************
@@ -155,11 +155,13 @@ const projects = () => {
 }
 
 const my_art = () => {
-	let myArtJson = `${currentUrl}images/my-art.json`;
-  //let myArtJson = 'file:///home/devian/Github/myGithubPage/melanynadine.github.io/images/my-art.json';
   let artSection = document.getElementById("my_art_section");
   responsiveDisplay(artSection, "block", "grid");
-  console.log(xmlRequest(myArtJson));
+  
+  myArtItems.forEach( image => {
+    artSection += `<img src="${baseUrl}/images/my-art/${image}"`;
+  })
+  
 }
 
 const contact_me = () => {
@@ -260,12 +262,13 @@ const xmlArticleRequest = (body, url, key) => {
 	return this.request;
 }
 
-const xmlRequest = url => {
-	var xhr = new XMLHttpRequest();
-	xhr.addEventListener("load", () => xhr.responseText );
+function xmlRequest(url) {
+	let xhr = new XMLHttpRequest();
+	
 	xhr.open("GET", url);
 	xhr.send();
-	return this.request;
+  xhr.addEventListener("load", () => {return xhr.response} );
+  
 }
 
 class Article {
