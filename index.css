@@ -399,9 +399,25 @@
      font-size: 2.9vw;
    }
 
+   /* ----- home section ------*/
+
+   #profile-pic{
+    width: 20vw;
+    margin: 7vw auto 1vw auto;
+    border-radius: 5px;
+   }
+
    #home_section > #pane{
-     font-size: 1.7vw;
      width: 62vw;
+   }
+
+   #pane p{
+    font-size: 1.7vw;
+   }
+
+   #home_section h2 {
+    font-size: 2vw;
+    margin-top: 2.6vw;
    }
 
    h2{
@@ -416,11 +432,6 @@
     padding: 0.8vw 1vw;
     font-size: 2.5vw;
   }
-
-   #home > #pane{
-     font-size: 3.5vw;
-     width: 90vw;
-   }
 
    h2{
      font-size: 4.5vw;
@@ -465,11 +476,40 @@
 
    /* ----- home section ------*/
 
+   #home_section > #pane{
+    margin-bottom: 8vw;
+    padding: 2vw 6vw;
+  }
+
+   #pane p{
+     font-size: 3vw;
+   }
+
+   #home_section h2{
+    font-size: 2.8vw;
+    margin: 4vw 0 3.2vw 0;
+   }
+
    #profile-pic{
-    width: 25vw;
-    margin: 4vw auto;
+    width: 36vw;
+    margin: 10vw auto 2vw auto;
     border-radius: 5px;
    }
+
+   .profile-pic-container p {
+    font-size: 2.4vw;
+    max-width: 30vw;
+   }
+
+   /* ----- resources ------*/
+
+   #buttons li{
+    font-size: 3vw;
+    padding: 0.7vw 1.2vw;
+    width: 40vw;
+    min-height: 10vw;
+    margin: 4vw;
+  }
 
    /* ---- my articles, my art ----- */
 
