@@ -12,6 +12,11 @@
   src: url(./fonts/Ubuntu-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'IBM Plex Mono', monospace;
+  src: url(./fonts/IBMPlexMono-Regular.ttf);
+}
+
 :root{
   --wine: rgb(80, 10, 10);
   --midwine: #890808;
@@ -125,8 +130,20 @@
 #profile-pic{
    border-radius: 2px 40px;
    width: 15%;
-   margin: 5vw auto;
+   margin: 5vw auto 1vw auto;
    display: flex;
+}
+
+.profile-pic-container{
+  text-align: center;
+}
+
+.profile-pic-container p{
+  font-size: 1vw;
+  max-width: 20vw;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  color: darkolivegreen;
 }
 
 #home_section > #pane{
@@ -137,6 +154,13 @@
     border-radius: 1vw;
     font-family: 'CMUSerifRoman';
     font-size: 1.1vw;
+}
+
+#home_section h2{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.5vw;
+  font-weight: 200;
+  margin: 2.5vw 0 2vw;
 }
 
 .badges{
@@ -179,8 +203,6 @@
 /*******************************
 /           ARTICLES
 /*******************************/
-
-
 
 #my_articles_section div{
    color: rgb(100,100,100);

@@ -49,7 +49,7 @@ const resourcesFolders = {
 
 const mail =  "melany_nadine@hotmail.com";
 let currentUrl = window.location.href;
-let baseUrl = 'https://melanynadine.github.io/';
+let baseUrl = 'https://melanynadine.github.io';
 
 
 /* ******************************************
@@ -159,7 +159,7 @@ const my_art = () => {
   responsiveDisplay(artSection, "block", "grid");
   
   myArtItems.forEach( image => {
-    artSection += `<img src="${baseUrl}/images/my-art/${image}"`;
+    artSection.innerHTML += `<div><img src="${baseUrl}/images/my-art/${image}"></div>`;
   })
   
 }
