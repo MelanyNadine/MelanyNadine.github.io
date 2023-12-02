@@ -22,6 +22,7 @@
         <li><a href="#django">Django</a></li>
         <li><a href="#spring-boot">Spring Boot</a></li>
         <li><a href="#ipython">I Python</a></li>
+        <li><a href="#docker">Docker</a></li>
       </ol>
     </div>
     
@@ -63,7 +64,7 @@
 
             <p class="note">The command is to be run in the main directory of the project, where mvnw and mvnw.cmd lay.</p>
 
-            <p>Keep in mind that if <code class="editor">spring.jpa.hibernate.ddl-auto=update</code> line inside <code>aplication.properties</code> is set up to <code>create</code> instead of <code>update</code>, the entire database is deleted and redone.</p>
+            <p>Keep in mind that if <code class="editor">spring.jpa.hibernate.ddl-auto=update</code> line inside <code>aplication.properties</code> is set up to <code>create</code> instead of <code>update</code>, the entire database is deleted and created again.</p>
 
           </div>
 
@@ -88,6 +89,44 @@
       </section>
     </section>
 
-</body>
+    <section id="docker">
+      <h1>Docker</h1>
+      <div>
+        <h3>Start Docker</h3>
+        <div>
+          <p>Run the following command to start Docker.</p>
+          <code class="shell">sudo systemctl start docker</code>
+        </div>
+
+        <h3>Dockerfile, building and running docker images</h3>
+        <div>
+          <p>Once created the Dockerfile in your project, you must build it in order for containers and images to be created. You'll navigate to your project directory, where the Dockerfile is located, and run the following command in your terminal.</p>
+          <code class="shell">sudo docker build .</code>
+
+          <p>After successfully built, you'll need to check for docker images in order for you to be able to run the specific image you just created. You can check docker images by running</p>
+          <code class="shell">sudo docker images</code>
+
+          <p>Once you see the image Id of the image you're trying to run, execute the following command. Replace '8000' with the port as specified in your Dockerfile, namely, the port in which your application will be up and running. For instance, if you've dockerized and Angular application, usually the port will be 4200:4200 or 4200:4201. The next string is an example of an image ID. Replace it with the actual image ID you're trying to run.</p>
+          <code class="shell">sudo docker run -p 8000:8000 515ccc06601d</code>
+
+          <p class="note">Specifying the port when running an image is IMPORTANT. Otherwise you won't be able to see it running and up.</p>
+        </div>
+
+        <h3>Containers, removing images and containers</h3>
+
+        <p>In case something went wrong when building an image or you have modified the Dockerfile heavily so you'll need to build it again, you'll need first to erase the containers and images associated. First, you'll have to check for all containers. You can do this by typing the following command.</p>
+        <code class="shell">sudo docker ps -a</code>
+
+        <p>In case your container is running, before deleting it you'll need to stop it. Run the following command to this purpose.</p>
+        <code class="shell">sudo docker stop the-container-id-you're-trying-to-delete</code>
+
+        <p>Thereafter, you can execute the following command to remove the container.</p>
+        <code class="shell">sudo docker rm container-id-1 container-id-2 ...</code>
+        <p>You can delete one container or a batch, like in the example above.</p>
+
+        <p>Finally, execute the following command to delete the images. You can erase several images at once, you'll just need the image Id. Type the following.</p>
+        <code class="shell">sudo docker rmi image-id-1 image-id-2 ...</code>
+      </div>
+    </section>
 
 </html>
