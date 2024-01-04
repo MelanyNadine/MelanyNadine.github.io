@@ -6,18 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name=”robots” content="index, nofollow">
-  
-  <!-- ================= -->
-  <!--    META TAGS      -->
-  <!-- ================= -->
-  <meta property="og:title" content="The Cosmological Constant">
-  <meta property="og:description" content='From his &#147;biggest mistake of his life&#148; to a constant widely important in astrophysics, Einstein&#146;s Cosmological constant had been a riddle for over 7 decades.'>
-  <meta property="og:image" content="https://live.staticflickr.com/65535/49757380101_5dcf8966c5_b.jpg">
-  <meta property="og:site_name" content="Mel's Blog">
-  <meta property="og:url" content="melanynadine.github.io?my_articles">
-  <!-- ================= -->
-
-  <title>The Cosmological Constant</title>
   <link rel="stylesheet" href="./myhtmlarticles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,20 +14,18 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
   </script>
   <script>
-    
-    let metas = document.getElementsByTagName("meta");
-    console.log(metas[5].content)
 
-    const vars = {
-        "title": `${metas[3].content}`,
-        "description": `${metas[4].content}`,
-        "imageURL": `${metas[5].content}`,
-        "site_name": `${metas[6].content}`,
-        "url": `${metas[7].content}`,
+     const vars = {
+        "imageURL": 'https://live.staticflickr.com/65535/49757380101_5dcf8966c5_b.jpg',
+        "description": "From his \"biggest mistake of his life\" to a constant widely important in astrophysics, Einstein's Cosmological constant had been a riddle for over 7 decades.",
+        "title": "The Cosmological Constant",
+        "url": "melanynadine.github.io?my_articles",
+        "site_name": "Mel's Blog",
         "tag": "Web Article",
      }
 
-    const article = () => {
+     const article = () => {
+        metas();
         let content = document.getElementsByTagName("article")[0].innerHTML;
         let body = document.getElementById("article");
 
@@ -50,7 +36,24 @@
           <img src="${vars["imageURL"]}">
           <article>${content}</article>
         `;
-    }
+     }
+
+     const metas = () => {
+        let head = document.getElementsByTagName("HEAD")[0];
+        head.innerHTML += `
+          <title>${vars["title"]}</title>
+          <meta property="og:title" content="${vars["title"]}">
+          <meta property="og:image" content="${vars["imageURL"]}">
+          <meta property="og:site_name" content="${vars["site_name"]}">
+          <meta property="og:url" content="${vars["url"]}">
+        `;
+        let metaDescription = document.createElement('meta');
+        metaDescription.setAttribute('property','og:description');
+        metaDescription.content = vars["description"];
+        head.appendChild(metaDescription);
+        return head;
+     }
+
 
   </script>
 </head>
