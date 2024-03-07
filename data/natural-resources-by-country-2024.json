@@ -1,0 +1,506 @@
+[
+  {
+    "country": "China",
+    "NaturalResourcesByCountry": "Aluminum |\nAntimony |\nArable Land |\nArsenic |\nBismuth |\nCadmium |\nCobalt |\nCoal |\nFerrosilicon |\nGallium |\nGermanium |\nHafnium |\nHydropower Potential (World's Largest) |\nIndium |\nIron Ore |\nLead |\nLithium |\nMagnesium |\nMagnetite |\nManganese |\nMercury |\nMolybdenum |\nNatural Gas |\nPetroleum |\nRare Earth Elements |\nSelenium |\nStrontium |\nTantalum |\nTellurium |\nTin |\nTitanium |\nTungsten |\nUranium |\nVanadium |\nZinc "
+  },
+  {
+    "country": "United States",
+    "NaturalResourcesByCountry": "Arable Land |\nBauxite |\nCoal |\nCopper |\nGold |\nIron |\nLead |\nMercury |\nMolybdenum |\nNatural Gas |\nNickel |\nPetroleum |\nPhosphates |\nPotash |\nRare Earth Elements |\nSilver |\nTimber |\nTungsten |\nUranium |\nZinc |"
+  },
+  {
+    "country": "Brazil",
+    "NaturalResourcesByCountry": "Alumina |\nBauxite |\nBeryllium |\nGold |\nHydropower |\nIron Ore |\nManganese |\nNickel |\nNiobium |\nPetroleum |\nPhosphates |\nPlatinum |\nRare Earth Elements |\nTantalum |\nTimber |\nTin |\nUranium "
+  },
+  {
+    "country": "Bangladesh",
+    "NaturalResourcesByCountry": "Arable Land |\nCoal |\nNatural Gas |\nTimber "
+  },
+  {
+    "country": "Mexico",
+    "NaturalResourcesByCountry": "Antimony |\nCopper |\nGold |\nLead |\nNatural Gas |\nPetroleum |\nSilver |\nTimber |\nZinc "
+  },
+  {
+    "country": "DR Congo",
+    "NaturalResourcesByCountry": "Coal |\nCobalt |\nCopper |\nGold |\nHydropower |\nIndustrial and Gem Diamonds |\nManganese |\nNiobium |\nPetroleum |\nSilver |\nTantalum |\nTimber |\nTin |\nUranium |\nZinc "
+  },
+  {
+    "country": "Vietnam",
+    "NaturalResourcesByCountry": "Antimony |\nArable Land |\nBauxite |\nChromate |\nCoal |\nHydropower |\nManganese |\nOffshore Oil and Gas Deposits |\nPhosphates |\nRare Earth Elements |\nTimber "
+  },
+  {
+    "country": "Turkey",
+    "NaturalResourcesByCountry": "Antimony |\nArable Land |\nBarite |\nBorate |\nCelestite (Strontium) |\nChromium |\nClay |\nCopper |\nEmery |\nFeldspar |\nGold |\nHydropower |\nIron Ore |\nLimestone |\nMagnesite |\nMarble |\nMercury |\nPerlite |\nPumice |\nPyrites (Sulfur) "
+  },
+  {
+    "country": "Thailand",
+    "NaturalResourcesByCountry": "Arable Land |\nFish |\nFluorite |\nGypsum |\nLead |\nLignite |\nNatural Gas |\nRubber |\nTantalum |\nTimber |\nTin |\nTungsten |"
+  },
+  {
+    "country": "Tanzania",
+    "NaturalResourcesByCountry": "Coal |\nDiamonds |\nGemstones (Including Tanzanite, found only in Tanzania) |\nGold |\nHydropower |\nIron Ore |\nNatural Gas |\nNickel |\nPhosphates |\nTin"
+  },
+  {
+    "country": "United Kingdom",
+    "NaturalResourcesByCountry": "Arable Land |\nChalk |\nClay |\nCoal |\nGold |\nGypsum |\nIron Ore |\nLead |\nLimestone |\nNatural Gas |\nPetroleum |\nPotash |\nSalt |\nSilica Sand |\nSlate |\nTin |\nZinc "
+  },
+  {
+    "country": "South Africa",
+    "NaturalResourcesByCountry": "Antimony |\nChromium |\nCoal |\nCopper |\nGem Diamonds |\nGold |\nIron Ore |\nManganese |\nNatural Gas |\nNickel |\nPhosphates |\nPlatinum |\nRare Earth Elements |\nSalt |\nTin |\nUranium |\nVanadium"
+  },
+  {
+    "country": "Kenya",
+    "NaturalResourcesByCountry": "Diatomite |\nFluorspar |\nGemstones |\nGypsum |\nHydropower |\nLimestone |\nSalt |\nSoda Ash |\nWildlife |\nZinc |"
+  },
+  {
+    "country": "Myanmar",
+    "NaturalResourcesByCountry": "Antimony |\nArable Land |\nCoal |\nCopper |\nHydropower |\nLead |\nLimestone |\nMarble |\nNatural Gas |\nPetroleum |\nPrecious Stones |\nTimber |\nTin |\nTungsten |\nZinc "
+  },
+  {
+    "country": "Colombia",
+    "NaturalResourcesByCountry": "Coal |\nCopper |\nEmeralds |\nGold |\nHydropower |\nIron Ore |\nNatural Gas |\nNickel |\nPetroleum "
+  },
+  {
+    "country": "South Korea",
+    "NaturalResourcesByCountry": "Coal |\nGraphite |\nHydropower Potential |\nLead |\nMolybdenum |\nTungsten "
+  },
+  {
+    "country": "Uganda",
+    "NaturalResourcesByCountry": "Arable Land |\nCobalt |\nCopper |\nGold |\nHydropower |\nLimestone |\nSalt "
+  },
+  {
+    "country": "Sudan",
+    "NaturalResourcesByCountry": "Chromium Ore (Small Reserves) |\nCopper (Small Reserves) |\nGold (Small Reserves) |\nHydropower |\nIron Ore (Small Reserves) |\nMica (Small Reserves) |\nPetroleum |\nSilver (Small Reserves) |\nTungsten (Small Reserves) |\nZinc (Small Reserves) "
+  },
+  {
+    "country": "Spain",
+    "NaturalResourcesByCountry": "Arable Land |\nCoal |\nCopper |\nFluorspar |\nGypsum |\nHydropower |\nIron Ore |\nKaolin |\nLead |\nLignite |\nMagnesite |\nMercury |\nPotash |\nPyrites |\nSepiolite |\nTungsten |\nUranium |\nZinc "
+  },
+  {
+    "country": "Algeria",
+    "NaturalResourcesByCountry": "Iron Ore |\nLead |\nNatural Gas |\nPetroleum |\nPhosphates |\nUranium |\nZinc "
+  },
+  {
+    "country": "Argentina",
+    "NaturalResourcesByCountry": "Arable Land |\nCopper |\nFertile plains of the pampas |\nIron Ore |\nLead |\nManganese |\nPetroleum |\nTin |\nUranium |\nZinc "
+  },
+  {
+    "country": "Afghanistan",
+    "NaturalResourcesByCountry": "Arable Land |\nBarites |\nChromite |\nCoal |\nCopper |\nIron Ore |\nLead |\nNatural Gas |\nPetroleum |\nPrecious and Semiprecious Stones |\nSalt |\nSulfur |\nTalc |\nZinc "
+  },
+  {
+    "country": "Canada",
+    "NaturalResourcesByCountry": "Bauxite |\nCoal |\nCopper |\nDiamonds |\nFish |\nGold |\nHydropower |\nIron Ore |\nLead |\nMolybdenum |\nNatural Gas |\nNickel |\nPetroleum |\nPotash |\nRare Earth Elements |\nSilver |\nTimber |\nUranium |\nWildlife |\nZinc "
+  },
+  {
+    "country": "Morocco",
+    "NaturalResourcesByCountry": "Fish |\nIron Ore |\nLead |\nManganese |\nPhosphates |\nSalt |\nZinc "
+  },
+  {
+    "country": "Ukraine",
+    "NaturalResourcesByCountry": "Arable Land |\nCoal |\nGraphite |\nIron Ore |\nKaolin |\nMagnesium |\nManganese |\nMercury |\nNatural Gas |\nNickel |\nOil |\nSalt |\nSulfur |\nTimber |\nTitanium "
+  },
+  {
+    "country": "Angola",
+    "NaturalResourcesByCountry": "Bauxite |\nCopper |\nDiamonds |\nFeldspar |\nGold |\nIron Ore |\nPetroleum |\nPhosphates |\nUranium "
+  },
+  {
+    "country": "Uzbekistan",
+    "NaturalResourcesByCountry": "Coal |\nCopper |\nGold |\nLead |\nMolybdenum |\nNatural Gas |\nPetroleum |\nSilver |\nTungsten |\nUranium "
+  },
+  {
+    "country": "Yemen",
+    "NaturalResourcesByCountry": "Coal (Small Deposits) |\nCopper (Small Deposits) |\nFertile Soil in West |\nFish |\nGold (Small Deposits) |\nLead (Small Deposits) |\nMarble |\nNickel (Small Deposits) |\nPetroleum |\nRock Salt "
+  },
+  {
+    "country": "Mozambique",
+    "NaturalResourcesByCountry": "Coal |\nGraphite |\nHydropower |\nNatural Gas |\nTantalum |\nTitanium "
+  },
+  {
+    "country": "Malaysia",
+    "NaturalResourcesByCountry": "Bauxite |\nCopper |\nIron Ore |\nNatural Gas |\nPetroleum |\nTimber |\nTin "
+  },
+  {
+    "country": "Nepal",
+    "NaturalResourcesByCountry": "Cobalt |\nCopper |\nHydropower |\nIron Ore |\nQuartz |\nScenic Beauty |\nSmall Deposits of Lignite |\nTimber |\nWater "
+  },
+  {
+    "country": "Madagascar",
+    "NaturalResourcesByCountry": "Bauxite |\nChromite |\nCoal |\nFish |\nGraphite |\nHydropower |\nMica |\nQuartz |\nRare Earth Elements |\nSalt |\nSemiprecious Stones |\nTar Sands "
+  },
+  {
+    "country": "Venezuela",
+    "NaturalResourcesByCountry": "Bauxite |\nDiamonds |\nGold |\nHydropower |\nIron Ore |\nNatural Gas |\nOther Minerals |\nPetroleum "
+  },
+  {
+    "country": "Cameroon",
+    "NaturalResourcesByCountry": "Bauxite |\nHydropower |\nIron Ore |\nPetroleum |\nTimber "
+  },
+  {
+    "country": "Australia",
+    "NaturalResourcesByCountry": "Alumina |\nCoal |\nCopper |\nDiamonds |\nGold |\nIron Ore |\nLead |\nLithium |\nMineral Sands |\nNatural Gas |\nNickel |\nOpals |\nPotash (Potassium) |\nPetroleum |\nRare Earth Elements |\nSilver |\nTin |\nTungsten |\nUranium |\nZinc "
+  },
+  {
+    "country": "North Korea",
+    "NaturalResourcesByCountry": "Coal |\nCopper |\nGraphite |\nHydropower |\nIron Ore |\nLead |\nLimestone |\nMagnesite |\nPrecious Metals |\nZinc "
+  },
+  {
+    "country": "Syria",
+    "NaturalResourcesByCountry": "Asphalt |\nChrome and Manganese Ores |\nGypsum |\nHydropower |\nIron Ore |\nMarble |\nPetroleum |\nPhosphates |\nRock Salt "
+  },
+  {
+    "country": "Mali",
+    "NaturalResourcesByCountry": "Bauxite (Note: Known but Not Exploited) |\nCopper (Note: Known but Not Exploited) |\nGold |\nGranite (Note: Known but Not Exploited) |\nGypsum |\nHydropower |\nIron Ore (Note: Known but Not Exploited) |\nKaolin |\nLimestone |\nManganese (Note: Known but Not Exploited) |\nPhosphates |\nSalt |\nTin (Note: Known but Not Exploited) |\nUranium (Note: Known but Not Exploited) "
+  },
+  {
+    "country": "Taiwan",
+    "NaturalResourcesByCountry": "Arable Land |\nAsbestos (Small Deposits) |\nCoal (Small Deposits) |\nLimestone (Small Deposits) |\nMarble (Small Deposits) |\nNatural Gas (Small Deposits) "
+  },
+  {
+    "country": "Burkina Faso",
+    "NaturalResourcesByCountry": "Gold |\nLimestone |\nMarble |\nManganese |\nPhosphates |\nPumice |\nSalt |\nZinc "
+  },
+  {
+    "country": "Sri Lanka",
+    "NaturalResourcesByCountry": "Arable Land |\nClay |\nGems |\nGraphite |\nHydropower |\nLimestone |\nMineral Sands |\nPhosphates "
+  },
+  {
+    "country": "Malawi",
+    "NaturalResourcesByCountry": "Arable Land |\nCoal (Unexploited Deposits) |\nHydropower |\nLimestone |\nUranium (Unexploited Deposits) |\nBauxite (Unexploited Deposits) "
+  },
+  {
+    "country": "Zambia",
+    "NaturalResourcesByCountry": "Coal |\nCobalt |\nCopper |\nEmeralds |\nGold |\nHydropower |\nLead |\nSilver |\nUranium |\nZinc "
+  },
+  {
+    "country": "Kazakhstan",
+    "NaturalResourcesByCountry": "Bauxite |\nChrome Ore |\nCoal |\nCobalt |\nCopper |\nGold |\nIron Ore |\nLead |\nManganese |\nMolybdenum |\nNatural Gas |\nNickel |\nPetroleum |\nUranium |\nZinc "
+  },
+  {
+    "country": "Chile",
+    "NaturalResourcesByCountry": "Copper |\nHydropower |\nIron Ore |\nMolybdenum |\nNitrates |\nPrecious Metals |\nTimber "
+  },
+  {
+    "country": "Chad",
+    "NaturalResourcesByCountry": "Fish |\nGold |\nKaolin |\nLimestone |\nNatron |\nPetroleum |\nSalt |\nSand and Gravel |\nUranium "
+  },
+  {
+    "country": "Somalia",
+    "NaturalResourcesByCountry": "Bauxite (Largely Unexploited Reserves) |\nCopper (Largely Unexploited Reserves) |\nGypsum (Largely Unexploited Reserves) |\nIron Ore (Largely Unexploited Reserves) |\nNatural Gas (Likely Reserves) |\nSalt (Largely Unexploited Reserves) |\nTin (Largely Unexploited Reserves) |\nUranium (Largely Unexploited Reserves) |\nNote - Likely Oil Reserves "
+  },
+  {
+    "country": "Netherlands",
+    "NaturalResourcesByCountry": "Arable Land |\nLimestone |\nNatural Gas |\nPeat |\nPetroleum |\nSalt |\nSand and Gravel "
+  },
+  {
+    "country": "Cambodia",
+    "NaturalResourcesByCountry": "Arable Land |\nGas |\nGemstones |\nHydropower Potential |\nIron Ore |\nManganese |\nOil |\nPhosphates |\nTimber "
+  },
+  {
+    "country": "Zimbabwe",
+    "NaturalResourcesByCountry": "Asbestos |\nChromium Ore |\nCoal |\nCopper |\nGold |\nIron Ore |\nNickel "
+  },
+  {
+    "country": "Benin",
+    "NaturalResourcesByCountry": "Limestone |\nMarble |\nSmall Offshore Oil Deposits\nTimber "
+  },
+  {
+    "country": "Burundi",
+    "NaturalResourcesByCountry": "Arable Land |\nCobalt |\nCopper |\nGold |\nHydropower |\nKaolin |\nLimestone |\nNickel |\nNiobium |\nPeat |\nPlatinum |\nRare Earth Oxides |\nTantalum |\nTin |\nTungsten |\nUranium |\nVanadium "
+  },
+  {
+    "country": "Bolivia",
+    "NaturalResourcesByCountry": "Antimony |\nGold |\nHydropower |\nIron |\nLead |\nLithium |\nNatural Gas |\nPetroleum |\nSilver |\nTin |\nTimber |\nTungsten |\nZinc "
+  },
+  {
+    "country": "Tunisia",
+    "NaturalResourcesByCountry": "Iron Ore |\nLead |\nPetroleum |\nPhosphates |\nSalt |\nZinc "
+  },
+  {
+    "country": "Belgium",
+    "NaturalResourcesByCountry": "Arable Land |\nCarbonates |\nConstruction Materials |\nSilica Sand "
+  },
+  {
+    "country": "Jordan",
+    "NaturalResourcesByCountry": "Phosphates |\nPotash |\nShale Oil "
+  },
+  {
+    "country": "South Sudan",
+    "NaturalResourcesByCountry": "Agricultural Land (Fertile) |\nChromium Ore |\nCopper |\nDiamonds |\nGold |\nHardwoods |\nHydropower |\nIron Ore |\nLimestone |\nMica |\nPetroleum |\nSilver |\nTungsten |\nZinc "
+  },
+  {
+    "country": "Sweden",
+    "NaturalResourcesByCountry": "Arsenic |\nCopper |\nFeldspar |\nGold |\nHydropower |\nIron Ore |\nLead |\nSilver |\nTimber |\nTungsten |\nUranium |\nZinc "
+  },
+  {
+    "country": "Azerbaijan",
+    "NaturalResourcesByCountry": "Bauxite |\nIron Ore |\nNatural Gas |\nNonferrous Metals |\nPetroleum "
+  },
+  {
+    "country": "Tajikistan",
+    "NaturalResourcesByCountry": "Antimony |\nBrown Coal |\nGold |\nHydropower |\nLead |\nMercury |\nPetroleum (Some) |\nSilver |\nTungsten |\nUranium |\nZinc "
+  },
+  {
+    "country": "United Arab Emirates",
+    "NaturalResourcesByCountry": "Natural Gas |\nPetroleum "
+  },
+  {
+    "country": "Belarus",
+    "NaturalResourcesByCountry": "Chalk |\nClay |\nDolomitic Limestone |\nGranite |\nMarl |\nPeat Deposits |\nSand |\nSmall Quantities of Oil and Natural Gas |\nTimber "
+  },
+  {
+    "country": "Togo",
+    "NaturalResourcesByCountry": "Arable Land |\nLimestone |\nMarble |\nPhosphates "
+  },
+  {
+    "country": "Austria",
+    "NaturalResourcesByCountry": "Antimony |\nCoal |\nCopper |\nGraphite |\nHydropower |\nIron Ore |\nLignite |\nMagnesite |\nOil |\nSalt |\nTimber |\nTungsten |\nZinc "
+  },
+  {
+    "country": "Switzerland",
+    "NaturalResourcesByCountry": "Hydropower Potential |\nSalt |\nTimber "
+  },
+  {
+    "country": "Laos",
+    "NaturalResourcesByCountry": "Gemstones |\nGold |\nGypsum |\nHydropower |\nTimber |\nTin "
+  },
+  {
+    "country": "Libya",
+    "NaturalResourcesByCountry": "Gypsum |\nNatural Gas |\nPetroleum "
+  },
+  {
+    "country": "Kyrgyzstan",
+    "NaturalResourcesByCountry": "Abundant Hydropower |\nBismuth |\nGold |\nLead |\nLocally Exploitable Coal, Oil, and Natural Gas |\nMercury |\nOther Deposits of Nepheline |\nRare Earth Metals |\nZinc"
+  },
+  {
+    "country": "Bulgaria",
+    "NaturalResourcesByCountry": "Arable Land |\nBauxite |\nCoal |\nCopper |\nLead |\nTimber |\nZinc "
+  },
+  {
+    "country": "Turkmenistan",
+    "NaturalResourcesByCountry": "Natural Gas |\nPetroleum |\nSalt |\nSulfur "
+  },
+  {
+    "country": "Central African Republic",
+    "NaturalResourcesByCountry": "Diamonds |\nGold |\nHydropower |\nOil |\nTimber |\nUranium "
+  },
+  {
+    "country": "Slovakia",
+    "NaturalResourcesByCountry": "Arable Land |\nCopper (Small Amounts) |\nIron Ore (Small Amounts) |\nLignite |\nManganese Ore (Small Amounts) |\nSalt "
+  },
+  {
+    "country": "Liberia",
+    "NaturalResourcesByCountry": "Diamonds |\nGold |\nHydropower |\nIron Ore |\nTimber "
+  },
+  {
+    "country": "Lebanon",
+    "NaturalResourcesByCountry": "Arable Land |\nIron Ore |\nLimestone |\nSalt |\nWater-Surplus State in a Water-Deficit Region "
+  },
+  {
+    "country": "Mauritania",
+    "NaturalResourcesByCountry": "Copper |\nDiamonds |\nFish |\nGold |\nGypsum |\nIron Ore |\nOil |\nPhosphate "
+  },
+  {
+    "country": "Kuwait",
+    "NaturalResourcesByCountry": "Fish |\nNatural Gas |\nPetroleum |\nShrimp "
+  },
+  {
+    "country": "Mongolia",
+    "NaturalResourcesByCountry": "Coal |\nCopper |\nFluorspar |\nGold |\nIron |\nMolybdenum |\nNickel |\nOil |\nPhosphates |\nSilver |\nTin |\nTungsten |\nZinc "
+  },
+  {
+    "country": "Uruguay",
+    "NaturalResourcesByCountry": "Arable Land |\nFish |\nHydropower |\nMinor Minerals "
+  },
+  {
+    "country": "Moldova",
+    "NaturalResourcesByCountry": "Arable Land |\nGypsum |\nLignite |\nLimestone |\nPhosphorites "
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "NaturalResourcesByCountry": "Antimony |\nBauxite |\nChromite |\nClay |\nCobalt |\nCoal |\nCopper |\nGypsum |\nHydropower |\nIron Ore |\nLead |\nManganese |\nNickel |\nSalt |\nSand |\nTimber |\nZinc "
+  },
+  {
+    "country": "Albania",
+    "NaturalResourcesByCountry": "Arable Land |\nBauxite |\nChromite |\nCoal |\nCopper |\nHydropower |\nIron Ore |\nNatural Gas |\nNickel |\nPetroleum |\nSalt |\nTimber "
+  },
+  {
+    "country": "Armenia",
+    "NaturalResourcesByCountry": "Bauxite |\nCopper |\nGold |\nMolybdenum |\nZinc "
+  },
+  {
+    "country": "Botswana",
+    "NaturalResourcesByCountry": "Coal |\nCopper |\nDiamonds |\nIron Ore |\nNickel |\nPotash |\nSalt |\nSilver "
+  },
+  {
+    "country": "Lithuania",
+    "NaturalResourcesByCountry": "Amber |\nArable Land |\nPeat "
+  },
+  {
+    "country": "Namibia",
+    "NaturalResourcesByCountry": "Cadmium |\nCopper |\nDiamonds |\nFish |\nGold |\nHydropower |\nLead |\nLithium |\nSalt |\nSilver |\nTantalum |\nTin |\nTungsten |\nUranium |\nZinc |\nNote - Suspected Deposits of Oil, Coal, and Iron Ore"
+  },
+  {
+    "country": "Lesotho",
+    "NaturalResourcesByCountry": "Agricultural and Grazing Land |\nBuilding Stone |\nClay |\nDiamonds |\nSand |\nWater "
+  },
+  {
+    "country": "Slovenia",
+    "NaturalResourcesByCountry": "Building Stone |\nForests |\nHydropower |\nLead |\nLignite |\nZinc "
+  },
+  {
+    "country": "Latvia",
+    "NaturalResourcesByCountry": "Amber |\nArable Land |\nDolomite |\nHydropower |\nLimestone |\nPeat |\nTimber "
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "NaturalResourcesByCountry": "Asphalt |\nNatural Gas |\nPetroleum "
+  },
+  {
+    "country": "Bahrain",
+    "NaturalResourcesByCountry": "Associated and Nonassociated Natural Gas |\nFish |\nOil |\nPearls "
+  },
+  {
+    "country": "Mauritius",
+    "NaturalResourcesByCountry": "Arable Land |\nFish "
+  },
+  {
+    "country": "Comoros",
+    "NaturalResourcesByCountry": "Fish"
+  },
+  {
+    "country": "Bhutan",
+    "NaturalResourcesByCountry": "Calcium Carbonate |\nGypsum |\nHydropower |\nTimber"
+  },
+  {
+    "country": "Solomon Islands",
+    "NaturalResourcesByCountry": "Bauxite |\nFish |\nForests |\nGold |\nLead |\nNickel |\nPhosphates |\nZinc "
+  },
+  {
+    "country": "Macau",
+    "NaturalResourcesByCountry": "Negligible"
+  },
+  {
+    "country": "Luxembourg",
+    "NaturalResourcesByCountry": "Arable Land |\nIron Ore (No Longer Exploited) "
+  },
+  {
+    "country": "Suriname",
+    "NaturalResourcesByCountry": "Bauxite |\nCopper (Small Amounts) |\nFish |\nGold |\nHydropower |\nIron Ore (Small Amounts) |\nKaolin |\nNickel (Small Amounts) |\nPlatinum (Small Amounts) |\nShrimp |\nTimber "
+  },
+  {
+    "country": "Montenegro",
+    "NaturalResourcesByCountry": "Bauxite |\nHydroelectricity "
+  },
+  {
+    "country": "Cape Verde",
+    "NaturalResourcesByCountry": "Basalt Rock |\nClay |\nFish |\nGypsum |\nKaolin |\nLimestone |\nSalt "
+  },
+  {
+    "country": "Malta",
+    "NaturalResourcesByCountry": "Arable Land |\nLimestone |\nSalt "
+  },
+  {
+    "country": "Maldives",
+    "NaturalResourcesByCountry": "Fish"
+  },
+  {
+    "country": "Brunei",
+    "NaturalResourcesByCountry": "Natural Gas |\nPetroleum |\nTimber"
+  },
+  {
+    "country": "Belize",
+    "NaturalResourcesByCountry": "Arable Land Potential |\nFish |\nHydropower |\nTimber "
+  },
+  {
+    "country": "Bahamas",
+    "NaturalResourcesByCountry": "Arable Land |\nAragonite |\nSalt |\nTimber "
+  },
+  {
+    "country": "Vanuatu",
+    "NaturalResourcesByCountry": "Fish |\nHardwood Forests |\nManganese "
+  },
+  {
+    "country": "New Caledonia",
+    "NaturalResourcesByCountry": "Chrome |\nCobalt |\nGold |\nIron |\nLead |\nManganese |\nNickel |\nSilver "
+  },
+  {
+    "country": "Barbados",
+    "NaturalResourcesByCountry": "Fish |\nNatural Gas |\nPetroleum "
+  },
+  {
+    "country": "Kiribati",
+    "NaturalResourcesByCountry": "Coconuts (Copra) |\nFish |\nPhosphate (Production Discontinued in 1979)"
+  },
+  {
+    "country": "Micronesia",
+    "NaturalResourcesByCountry": "Deep-Seabed Minerals |\nMarine Products |\nPhosphate |\nTimber "
+  },
+  {
+    "country": "Tonga",
+    "NaturalResourcesByCountry": "Arable Land |\nFish "
+  },
+  {
+    "country": "Aruba",
+    "NaturalResourcesByCountry": "White sandy beaches foster tourism (negligible)"
+  },
+  {
+    "country": "Andorra",
+    "NaturalResourcesByCountry": "Hydropower |\nIron Ore |\nLead |\nMineral Water |\nTimber "
+  },
+  {
+    "country": "Cayman Islands",
+    "NaturalResourcesByCountry": "Climate and Beaches that Foster Tourism |\nFish "
+  },
+  {
+    "country": "Bermuda",
+    "NaturalResourcesByCountry": "Limestone |\nPleasant Climate Fostering Tourism"
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "NaturalResourcesByCountry": "Conch |\nSpiny Lobster "
+  },
+  {
+    "country": "American Samoa",
+    "NaturalResourcesByCountry": "Pumice |\nPumicite "
+  },
+  {
+    "country": "Marshall Islands",
+    "NaturalResourcesByCountry": "Coconut Products |\nDeep Seabed Minerals |\nMarine Products "
+  },
+  {
+    "country": "Liechtenstein",
+    "NaturalResourcesByCountry": "Arable Land |\nHydroelectric Potential "
+  },
+  {
+    "country": "Monaco",
+    "NaturalResourcesByCountry": "None"
+  },
+  {
+    "country": "British Virgin Islands",
+    "NaturalResourcesByCountry": "Negligible: Pleasant Climate, Beaches Foster Tourism"
+  },
+  {
+    "country": "Anguilla",
+    "NaturalResourcesByCountry": "Fish |\nLobster |\nSalt "
+  },
+  {
+    "country": "Nauru",
+    "NaturalResourcesByCountry": "Fish |\nPhosphates "
+  },
+  {
+    "country": "Tuvalu",
+    "NaturalResourcesByCountry": "Coconut (Copra) |\nFish "
+  },
+  {
+    "country": "Wallis and Futuna",
+    "NaturalResourcesByCountry": "NEGL"
+  },
+  {
+    "country": "Montserrat",
+    "NaturalResourcesByCountry": "Negligible"
+  },
+  {
+    "country": "Tokelau",
+    "NaturalResourcesByCountry": "Fisheries"
+  }
+]
