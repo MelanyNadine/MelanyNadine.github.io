@@ -1,0 +1,29 @@
+/*----------------
+ * 		HEADER_t
+ * --------------*/
+@media (max-width:900px){
+.style-oNnHA1d0kdQ-outer ul{
+	gap: unset !important;
+	}
+	
+	.style-Gp3qTlxXlu-outer {
+		margin: auto 20px !important;
+	}
+	
+/*-------------
+ * Nosotros_t
+ * ----------*/
+	.style-D41H0YOeju-inner p{
+		font-size: calc(1.1 * var(--p));
+	}
+
+/*-------------
+ * Servicios_t
+ * ----------*/
+	.style-QuO6S_EJ4WK-inner, .style-ardmWhLhqNg-inner{
+		& .wp-block-kubio-column{
+			max-width: 44% !important;
+		}
+	}
+}
+
