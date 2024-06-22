@@ -1,0 +1,239 @@
+:root{
+	--p: calc(8px + 0.3vw + 0.2vh);
+}
+
+/******************************
+ * ========================
+ * 					Desktop
+ * =========================
+ * ***************************/
+
+/**************************
+ * 		HOME
+ * ***********************/
+/*----------------
+ * NAVIGATION_d
+ * --------------*/
+
+.style-D1tX-urGiXt-outer{
+	& .menu-item {
+		margin: 0 calc(6px + 0.1vw) !important;
+	}
+	& a{
+	font-size: var(--p) !important;
+	}
+}
+
+* {
+	word-wrap: normal;
+}
+
+/*button*/
+.style-6_BY4kbUys-link span{
+	font-size: calc(10px + 0.2vw + 0.2vh) !important;
+}
+
+.style-bgnhUSaQMl-inner {
+	
+	margin-top: calc(70px + 0.2vw + 0.2vh) !important;
+	
+	margin-bottom: calc(70px + 0.2vw + 0.2vh) !important;
+	
+	& h1{
+		font-size: calc(3 * var(--p))
+	}
+}
+
+
+.style-xLwdIMLPC_l-nav-section{
+	display: flex;
+	justify-content: space-between !!important;
+}
+
+.style-xLwdIMLPC_l-nav-section div{
+	width: 100%;
+}
+
+.style-xLwdIMLPC_l-nav-section .justify-content-center{
+	justify-content: space-between;
+}
+
+/*logo container*/
+
+.style-ys3EX-ASA-frameContainer{ 
+	& img{
+		margin-top: 10px;
+	}
+}
+
+/*--------------------
+ *  	NOSOTROS
+ * -----------------*/
+
+.style-D41H0YOeju-inner{
+	& h2{
+		font-size:calc(2.5 * var(--p)) !important;
+		margin-bottom: calc(16px + 0.2vw + 0.1vh) !important
+	}
+	
+	& p{
+		font-size:calc(1.41 * var(--p))
+	}
+	
+	
+}
+
+.style-gZp4ybkeH1-outer, .style-QuO6S_EJ4WK-inner, .style-ardmWhLhqNg-inner{
+		padding-bottom: 0 !important;
+	margin-bottom: calc(40px + 0.5vw) !important; 
+}
+
+/*--------------------
+ *  	SERVICIOS
+ * -----------------*/
+
+.style-y06kG_Z2hde-align, .style-LuOD4KxdGWc-align{
+		& h2{
+			font-size:calc(3.5 * var(--p)) !important;
+		}
+}
+
+.style-QuO6S_EJ4WK-inner{
+	& img{
+		min-width: 50px !important;
+		width: calc(50px + 2vw) !important;
+	}
+	
+	& h5 {
+		min-height: 60px;
+		height: calc(50px + 0.2vw)
+		max-height: 80px;
+	}
+}
+
+/*--------------------
+ *  	SOLUCIONES
+ * -----------------*/
+
+.style-ardmWhLhqNg-inner{
+	& img{
+		min-width: 50px !important;
+		width: calc(50px + 2vw) !important;
+	}
+	
+	& h5 {
+		min-height: 60px;
+		height: calc(50px + 0.2vw)
+		font-size: calc(1.5 * var(--p));
+		min-height: 110px;
+		height: calc(110px + 0.2vw + 0.1vh)
+	}
+	
+	& .wp-block-kubio-button{
+		box-sizing: unset !important;
+		padding: 0;
+		width: 70%;
+		margin-top: 20px;
+		& a{
+			font-size: 80% !important;
+		}
+	}
+	
+
+	& .justify-content-lg-center{
+		justify-content: space-around !!important;
+	}
+
+}
+
+/*--------------------
+ *  	FOOTER
+ * -----------------*/
+
+.style-cppjpmKF9-inner{
+	& .wp-block-kubio-column__align{
+		padding: 0
+	}
+	
+	& .wp-block-kubio-column__inner{
+		padding: calc(50px + 0.5vw) 0;
+	}
+	
+	& h3{
+		font-size: calc(2.2 * var(--p)) !important;
+	}
+	
+	& h5{
+		font-size: calc(1.2 * var(--p)) !important;
+	}
+}
+
+.style-ljl-MKRjPT-inner{
+	margin-right: 50px !important;
+}
+
+.style-cppjpmKF9-container{
+	padding: calc(20px + 0.2vw) 80px;
+}
+
+.style-oNnHA1d0kdQ-outer ul{
+	gap: unset !important;
+}
+
+/**************************
+ * 		TABLET
+ * ***********************/
+/* Nav Menu */
+@media (max-width:900px){
+.style-oNnHA1d0kdQ-outer ul{
+	gap: unset !important;
+	}
+	
+	.style-Gp3qTlxXlu-outer {
+		margin: auto 20px !important;
+	}
+	
+/*-------------
+ * Nosotros_t
+ * ----------*/
+	.style-D41H0YOeju-inner p{
+		font-size: calc(1.1 * var(--p));
+	}
+
+/*-------------
+ * Servicios_t
+ * ----------*/
+	.style-QuO6S_EJ4WK-inner, .style-ardmWhLhqNg-inner{
+		& .wp-block-kubio-column{
+			max-width: 44% !important;
+		}
+	}
+}
+
+/**************************
+ * 		MOBILE
+ * ***********************/
+
+/*----------------
+ * NAVIGATION_m
+ * --------------*/
+
+@media(max-width:600px){
+.style-xLwdIMLPC_l-nav{
+	border-bottom: 2px solid #80808080
+}
+.style-ovGY-KybgF-inner{
+	margin-right: calc(12px + 0.2vw)
+}
+
+.style-ys3EX-ASA-image{
+	margin-left: 10px
+}
+
+.style-ljl-MKRjPT-inner{
+	margin: 0 !important;
+}
+	
+
+
+}
