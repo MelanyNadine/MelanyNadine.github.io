@@ -41,7 +41,8 @@ h5{
  * ------------------------*/
 
 .wp-block-kubio-dropdown-menu li {
-	margin: 0 calc(8px + 0.1vw) !important;
+	/*0 calc(8px + 0.1vw)*/
+	margin: 0 !important;
 	& a{
 		font-size: calc(1.2 * var(--p)) !important;
 	}
@@ -49,6 +50,10 @@ h5{
 
 * {
 	word-wrap: normal;
+}
+
+.style-t7evpzo3--J-inner{
+	padding-right: 0 !important;
 }
 
 /*Navigation*/
