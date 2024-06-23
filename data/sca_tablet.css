@@ -16,7 +16,7 @@
 .wp-block-kubio-dropdown-menu li {
 	margin: 0 calc(6px + 0.1vw) !important;
 	& a{
-		font-size: calc(1.25 * var(--p)) !important;
+		font-size: calc(1.15 * var(--p)) !important;
 	}
 }
 	
