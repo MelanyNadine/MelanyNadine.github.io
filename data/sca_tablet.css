@@ -31,6 +31,16 @@
 	.style-Gp3qTlxXlu-outer {
 		margin: auto 20px !important;
 	}
+
+/*---------------------------
+ * ------- Servicios --------
+ * ------------------------*/
+
+	.style-y06kG_Z2hde-align, .style-LuOD4KxdGWc-align {
+  & h2 {
+    font-size: calc(3 * var(--p)) !important;
+  }
+}
 	
 /*--------------------------
  * ------- Nosotros --------
