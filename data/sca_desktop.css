@@ -206,11 +206,3 @@ h5{
 .style-DbkmkmgSJj-container{
 	margin-top: calc(80px + 0.5vw) !important;
 }
-
-
-.style-DbkmkmgSJj-inner{
-	& h3 {
-		padding-bottom: calc(12px + 0.5vw);
-		border-bottom: 4px solid #79a4bc80;
-	}
-}
