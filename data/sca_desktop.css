@@ -206,3 +206,19 @@ h5{
 .style-DbkmkmgSJj-container{
 	margin-top: calc(80px + 0.5vw) !important;
 }
+
+/******************************************************
+ *------------------ SOLUTIONS TAB --------------------
+ * ****************************************************/
+
+
+.style-kxeqsSpdy-n-inner{
+	margin-top: calc(80px + 0.5vw) !important;
+}
+
+.style-kxeqsSpdy-n-align {
+	& img{
+		max-height: calc(300px + 0.5vw);
+		margin-top: calc(10px + 0.5vw);
+	}
+}
