@@ -71,19 +71,20 @@
  * ****************************************************/
 
 	
+.style-DbkmkmgSJj-align .wp-block-kubio-column{
+	min-width: 94%;
+		
+	& img{
+		max-width: 60% !important;
+		margin: auto;
+	}
+}
+	
 .wp-block.wp-block-kubio-heading__text.style-fBa56IeCRNx-text{
 	text-align:center !important;
-	max-width: 50% !important;
-	margin: auto
-}
-
-.style-DbkmkmgSJj-align .wp-block-kubio-column{
-	min-width: 90%;
-		
-		& img{
-			max-width: 60% !important;
-			margin: auto;
-	}
+	max-width: 80% !important;
+	margin: auto auto 20px auto;
+	font-size: calc(2 * var(--p)) !important;
 }
 
 /******************************* END TABLET LAYOUT *********************************/
