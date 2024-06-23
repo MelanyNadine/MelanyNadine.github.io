@@ -13,6 +13,10 @@
 h2{
 	font-size:calc(3 * var(--p)) !important;
 }
+
+h5{
+	font-size: calc(1.3 * var(--p)) !important;
+}
 	
 /*--------------------------
  * ------- HEADER ----------
@@ -57,6 +61,32 @@ h2{
 			font-size:calc(3 * var(--p)) !important;
 			margin-bottom: calc(24px + 1vw) !important;
 		}
+}
+
+
+.style-QuO6S_EJ4WK-inner {
+  & h5 {
+		min-height: unset;
+    height: calc(30px + 0.2vw + 0.1vh);
+  }
+}
+	
+.wp-block-kubio-button{
+		margin: calc(5px + 1vw) 0  calc(20px + 1vw) 0 !important;
+		& a{
+			letter-spacing: 0 !important
+		}
+}
+	
+.h-x-container-inner > *{
+		padding: 0 !important;
+}
+.style-vCL9ngu8t6b-spacing{
+	margin-top: 12px
+}
+
+.style-iMvKbN4Hr5n-outer{
+	padding: 0 !important;
 }
 
 /**************************** END MOBILE *******************************/
