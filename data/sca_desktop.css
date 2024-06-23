@@ -222,3 +222,10 @@ h5{
 		margin-top: calc(10px + 0.5vw);
 	}
 }
+
+.style-JP5g9bHS8j-inner{
+	margin-top: calc(40px + 0.5vw) !important;
+	.wp-block-kubio-column{
+		max-width: 46%
+	}
+}
