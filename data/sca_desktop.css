@@ -223,3 +223,15 @@ style-0q1v6PAHKT-align	}
 	}
 }
 
+.style-JP5g9bHS8j-inner{
+	margin-top: calc(40px + 0.5vw) !important;
+	
+}
+
+.style-CtKC_EuIZL-container{
+	& .wp-block-kubio-column__align{
+		margin-left: calc(10px + 0.5vw)
+	}
+}
+
+
