@@ -39,6 +39,7 @@
 	.style-y06kG_Z2hde-align, .style-LuOD4KxdGWc-align {
   & h2 {
     font-size: calc(3 * var(--p)) !important;
+		margin-bottom: calc(20px + 0.5vw) !important;
   }
 }
 	
