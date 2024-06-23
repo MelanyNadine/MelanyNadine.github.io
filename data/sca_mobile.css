@@ -40,7 +40,11 @@ h5{
 style-JkMvjryyOu--icon{
 	height: calc(26px + 0.5vw) !important;
 	width: calc(26px + 0.5vw) !important;
-	margin-right: 8px;
+}
+
+.style-QbooC6hEXE-nav{
+	padding-right: 10px !important;
+	padding-left: 8px !important;
 }
 
 /******************************************************
