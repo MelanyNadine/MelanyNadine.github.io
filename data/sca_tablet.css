@@ -66,6 +66,26 @@
 		}
 	}
 
+/******************************************************
+ *------------------ SERVICES TAB ---------------------
+ * ****************************************************/
+
 	
+.wp-block.wp-block-kubio-heading__text.style-fBa56IeCRNx-text{
+	text-align:center !important;
+	max-width: 50% !important;
+	margin: auto
+}
+
+.style-DbkmkmgSJj-align .wp-block-kubio-column{
+	min-width: 90%;
+		
+		& img{
+			max-width: 60% !important;
+			margin: auto;
+	}
+}
+
+/******************************* END TABLET LAYOUT *********************************/
 }
 
