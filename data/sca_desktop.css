@@ -1,22 +1,26 @@
+/******************************************************
+ *---------------- Gloval Variables -------------------
+ * ****************************************************/
+
 :root{
 	--p: calc(8px + 0.3vw + 0.2vh);
 }
 
 /*******************************************************************************
  * ===========================================================================
- *															DESKTOP LAYOUT
+ *	-------------------------- DESKTOP LAYOUT --------------------------------
  * ===========================================================================
  * *****************************************************************************/
 
+/******************************************************
+ *--------------------- General -----------------------
+ * ****************************************************/
 
-/*****************************************************
- * 										  GENERAL
- * ***************************************************/
 /*-------------------------
- * 			HEADER_d
+ * 			HEADER
  * ------------------------*/
 
-.style-D1tX-urGiXt-outer{
+.sca.header{
 	& .menu-item {
 		margin: 0 calc(6px + 0.1vw) !important;
 	}
@@ -30,11 +34,11 @@
 }
 
 /*button*/
-.style-6_BY4kbUys-link span{
+.sca-header span{
 	font-size: calc(10px + 0.2vw + 0.2vh) !important;
 }
 
-.style-bgnhUSaQMl-inner {
+.sca-header {
 	
 	margin-top: calc(70px + 0.2vw + 0.2vh) !important;
 	
@@ -46,26 +50,25 @@
 }
 
 
-.style-xLwdIMLPC_l-nav-section{
+.wp-block-kubio-navigation-section__nav-section{
 	display: flex;
 	justify-content: space-between !!important;
 }
 
-.style-xLwdIMLPC_l-nav-section div{
+.wp-block-kubio-navigation-section__nav-section div{
 	width: 100%;
 }
 
-.style-xLwdIMLPC_l-nav-section .justify-content-center{
+.wp-block-kubio-navigation-section__nav-section .justify-content-center{
 	justify-content: space-between;
 }
 
 /*logo container*/
 
-.style-ys3EX-ASA-frameContainer{ 
-	& img{
-		margin-top: 10px;
-	}
+.sca-logo-container{ 
+	margin-top: 10px;
 }
+
 
 /*--------------------
  *  	FOOTER_d
