@@ -20,27 +20,15 @@
  * ------- HEADER ----------
  * ------------------------*/
 
-.sca_header{
-	& .menu-item {
-		margin: 0 calc(6px + 0.1vw) !important;
-	}
+.wp-block-kubio-dropdown-menu.sca-menu li {
+	margin: 0 calc(8px + 0.1vw) !important;
 	& a{
-	font-size: var(--p) !important;
+		font-size: calc(1.2 * var(--p)) !important;
 	}
 }
 
 * {
 	word-wrap: normal;
-}
-
-/*Banner*/
-
-.style-bgnhUSaQMl-container {
-	margin-top: calc(70px + 0.2vw + 0.2vh) !important;
-	margin-bottom: calc(70px + 0.2vw + 0.2vh) !important;
-	& h1{
-		font-size: calc(3 * var(--p))
-	}
 }
 
 /*Navigation*/
@@ -102,6 +90,18 @@
 /******************************************************
  *----------------------- HOME ------------------------
  * ****************************************************/
+
+/*--------------------------
+ * -------- Banner ---------
+ * ------------------------*/
+
+.style-bgnhUSaQMl-container {
+	margin-top: calc(70px + 0.2vw + 0.2vh) !important;
+	margin-bottom: calc(70px + 0.2vw + 0.2vh) !important;
+	& h1{
+		font-size: calc(3 * var(--p))
+	}
+}
 
 /*--------------------------
  * ------- Nosotros --------
