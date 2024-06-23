@@ -199,14 +199,18 @@ h5{
 	padding-bottom: 0 !important;
 }
 
-.style-hL5kZfjkVv-align{
-	margin-top: calc(80px + 0.5vw) !important;
-}
-
 /******************************************************
- *------------------ ABOUT US TAB ---------------------
+ *------------------ SERVICES TAB ---------------------
  * ****************************************************/
 
 .style-DbkmkmgSJj-container{
 	margin-top: calc(80px + 0.5vw) !important;
+}
+
+
+.style-DbkmkmgSJj-inner{
+	& h3 {
+		padding-bottom: calc(12px + 0.5vw);
+		border-bottom: 4px solid #79a4bc80;
+	}
 }
