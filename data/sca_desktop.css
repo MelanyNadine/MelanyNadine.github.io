@@ -16,6 +16,10 @@
  *--------------------- General -----------------------
  * ****************************************************/
 
+p{
+	font-size: calc(1.4 * var(--p));
+}
+
 h1{
 	font-size: calc(3 * var(--p))
 }
@@ -117,13 +121,7 @@ h5{
 .style-D41H0YOeju-inner{
 	& h2{
 		margin-bottom: calc(16px + 0.2vw + 0.1vh) !important
-	}
-	
-	& p{
-		font-size:calc(1.41 * var(--p))
-	}
-	
-	
+	}	
 }
 
 .style-gZp4ybkeH1-outer, .style-QuO6S_EJ4WK-inner, .style-ardmWhLhqNg-inner{
