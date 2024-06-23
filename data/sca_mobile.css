@@ -36,7 +36,11 @@ h5{
 .style-ljl-MKRjPT-inner{
 	margin: 0 !important;
 }
-	
+
+style-JkMvjryyOu--icon{
+	height: calc(26px + 0.5vw) !important;
+	width: calc(26px + 0.5vw) !important;
+}
 
 /******************************************************
  *-------------------- HOME TAB -----------------------
