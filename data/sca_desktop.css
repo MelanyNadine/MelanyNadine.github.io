@@ -20,7 +20,7 @@
  * ------- HEADER ----------
  * ------------------------*/
 
-.wp-block-kubio-dropdown-menu.sca-menu li {
+.wp-block-kubio-dropdown-menu li {
 	margin: 0 calc(8px + 0.1vw) !important;
 	& a{
 		font-size: calc(1.2 * var(--p)) !important;
