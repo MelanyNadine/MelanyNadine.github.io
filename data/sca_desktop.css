@@ -20,7 +20,7 @@
  * ------- HEADER ----------
  * ------------------------*/
 
-.sca.header{
+.sca_header{
 	& .menu-item {
 		margin: 0 calc(6px + 0.1vw) !important;
 	}
