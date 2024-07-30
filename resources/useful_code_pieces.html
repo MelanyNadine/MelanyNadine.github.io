@@ -23,6 +23,7 @@
         <li><a href="#spring-boot">Spring Boot</a></li>
         <li><a href="#ipython">I Python</a></li>
         <li><a href="#docker">Docker</a></li>
+        <li><a href="#ignition">Ignition</a></li>
       </ol>
     </div>
     
@@ -126,6 +127,21 @@
 
         <p>Finally, execute the following command to delete the images. You can erase several images at once, you'll just need the image Id. Type the following.</p>
         <code class="shell">sudo docker rmi image-id-1 image-id-2 ...</code>
+      </div>
+    </section>
+
+    <section id="ignition">
+      <h1>Ignition</h1>
+      <div>
+        <h3>Module Creation</h3>
+        <div>
+          <p>First one is required to download ignition module tools, by cloning the project:</p>
+          <code class="shell">git clone https://github.com/inductiveautomation/ignition-module-tools</code>
+
+          <p>Under superuser privileges (or running cmd as admnistrator if working with windows) it is to be inside "generator" folder:</p>
+          <code class="shell">gradlew.bat clean build</code><br><br>
+          <code class="shell">gradlew.bat  runCli -–console plain</code>
+        </div>
       </div>
     </section>
 
