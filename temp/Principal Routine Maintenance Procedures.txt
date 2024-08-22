@@ -1,0 +1,565 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Manutenzione Ordinaria Principal Routine Maintenance Procedures
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Edition 11/2009
+
+Cavanna Machine
+
+
+
+
+
+Principali Interventi di Manutenzione Ordinaria
+
+In questo capitolo vengono riportate le tempistiche degli interventi di manutenzione ordinaria.
+
+Per quanto riguarda i metodi e le istruzioni per i vari interventi fare riferimento all'apposito manuale della macchina Cavanna.
+
+Da pagina M.16 a pagina M.19 è riportata una tabella nella quale è possibile riportare le date ogni volta che viene eseguito un intervento di manutenzione.
+
+La validita' del periodo di garanzia é subordinata all' esecuzione degli interventi elencati.
+
+Per un corretto funzionamento delle apparecchiature Cavanna alle scadenze prefissate rispettare i seguenti interventi di manutenzione.
+
+Principal Routine Maintenance Procedures
+
+This section encloses intervention and ordinary maintenance time schedules.
+
+As concerns methods and instructions about the different interventions, please refer to the Cavanna wrapping machine special handbook.
+
+From page M.16 up to page M.19 you will find a table which you can fill in with dates at each time a maintenance intervention is achieved.
+
+
+The validity of the warranty period is subject to performance of the procedures listed below.
+
+For correct functioning of your Cavanna equipment,performthefollowingmaintenance procedures at the required intervals.
+
+
+
+
+
+
+* Lubrificare le Catene di Trasmissione e di Trasporto.
+(KLUBEROIL 4 UH 1-1500-N)
+* 
+Lubricate Trasmission and Drive Chains.
+(KLUBEROIL 4 UH 1-1500-N)
+
+
+
+	
+
+
+
+200
+
+
+* Stendere una pellicola di lubrificante sugli Ingranaggi Cilindrici.
+(STABURAGS NBU 8 EP (KLUBER)
+* 
+Spread a film of lubricant on cylinder gears.
+(STABURAGS NBU 8 EP (KLUBER)
+
+
+
+
+
+
+
+
+
+
+
+* Ingrassare rullini folli terminali.
+PARALIQ GA 351 (KLUBER)
+
+
+* Grease end idle rollers.
+PARALIQ GA 351 (KLUBER)
+
+
+
+	
+
+
+
+* Pulire filtri d'aria.	? Clean air filters.
+
+
+
+* Pulire collettori ad anello per riscaldamento.	? Clean heating slip rings.
+
+200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+200
+
+
+
+
+
+
+
+
+
+* Controllare lame Zig-Zag.	? Check zig-zag blades.
+
+
+
+
+* Ingrassare vite di regolazione altezza gruppo saldatura trasversale.
+(STABURAGS NBU 8 EP (KLUBER)
+
+1000
+* Lubricate the screw for cross seal unit height adjustment.
+(STABURAGS NBU 8 EP (KLUBER)
+
+
+
+
+1000
+
+* Controllare rulli di traino.	? Check pulling wheels.
+
+
+
+
+
+
+
+
+* Controllare Nastri di Trasporto.	? Check Conveyor Belts.
+
+
+
+
+
+* Controllare l'usura delle spazzole.
+(altezza non inferiore a 1/3 dell'originale).
+
+
+* Check brushes for wear.
+(height not less than 1/3 of original).
+
+1000
+
+
+	
+
+
+* Stendere un velo di lubrificante sulle barre di scorrimento.
+(KLUBEROIL 4 UH 1-1500-N)
+
+
+* Spread a film of lubricant on sliding bars.
+(KLUBEROIL 4 UH 1-1500-N)
+
+1000
+
+
+
+
+
+
+
+
+
+
+* Lubrificare catene di trasmissione e di trasporto.
+(KLUBEROIL 4 UH 1-1500-N)
+
+
+* Lubrificate trasmission and drive chains. (KLUBEROIL 4 UH 1-1500-N)
+
+
+	
+
+
+
+
+
+
+* Stendere una pellicola di lubrificante sugli ingranaggi cilindrici.
+(STABURAGS NBU 8 EP (KLUBER)
+
+1000
+
+* Spread a film of lubricant on cylinder gearsi.
+(STABURAGS NBU 8 EP (KLUBER)
+
+
+
+
+
+
+
+
+
+
+
+* Ingrassare rullini folli terminali.
+PARALIQ GA 351 (KLUBER)
+
+
+* Grease end idle rollers.
+PARALIQ GA 351 (KLUBER)
+
+
+
+
+	
+
+
+
+* Pulire filtri d'aria.	? Clean air filters.
+
+
+
+* Pulire collettori ad anello per riscaldamento.	? Clean heating slip rings.
+
+1000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1000
+
+
+
+
+
+
+
+
+
+
+* Ripristinare livello grasso fino alla fuoriuscita dello stesso dagli appositi fori di sfiato dei rotanti e del gruppo piegalette:
+?Coppia Rotanti freddi + Piegalette.
+(STABURAGS NBU 8 EP (KLUBER))
+?Coppie Rotanti Caldi.
+(UNISILIKON L50/2 - KLUBER)
+
+
+* Top up grease by filling until it comes of breather holes on sealing wheels and flap folder:
+?Cold Sealing Wheels + Flap Folder.
+(STABURAGS NBU 8 EP (KLUBER))
+?Hot Sealing Wheels.
+(UNISILIKON L50/2 - KLUBER)
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+Per mantenere la macchine Cavanna in perfetta efficienza è consigliabile far eseguire un chek-up generale della linea ogni anno oppure ogni 3000 oer lavorative.
+
+
+To mantain Cavanna machine in a perfect efficiency a suggestion is to make a general check-up of the line every year or every 3000 working hours.
+
+
+
+
+
+
+* Controllare lame diritte e Zig-Zag.	? Check Zig Zag and straight blades.
+
+
+
+
+* Controllare tensionamento cinghie e usura pulegge.
+
+4000
+* Check pulley wheel tensioning and wearing.
+
+
+
+
+
+
+* Stendere una pellicola di lubrificante sugli ingranaggi cilindrici.
+(STABURAGS NBU 8 EP - KLUBER)
+
+4000
+* Spread a film of lubricant on cylinder gears.
+(STABURAGS NBU 8 EP - KLUBER)
+
+
+
+
+
+
+
+
+
+* Controllare catene di trasmissione e di trasporto.
+(KLUBEROIL 4 UH 1-1500-N)
+* 
+Check trasmission and drive chains.
+(KLUBEROIL 4 UH 1-1500-N)
+
+
+	
+
+
+
+
+
+4000
+
+* Controllare filtri d'aria.	?	Check air filters.
+
+
+
+
+
+
+
+* Pulire collettori ad anello per riscaldamento.	? Clean heating slip rings.
+
+
+
+
+
+
+
+* Controllare rullini folli terminali.
+(PARALIQ GA 351 - KLUBER)
+
+
+* Check end idle rollers.
+(PARALIQ GA 351 - KLUBER)
+
+4000
+
+
+
+
+* Controllare catena di alimentazione e inserti plastici di scorrimento.
+(KLUBEROIL 4 UH 1-1500-N)
+* 
+Check feed chain and plastic flow inserts.
+(KLUBEROIL 4 UH 1-1500-N)
+
+
+
+
+
+
+
+
+* Controllare cilindri pneumatici (C.A.B.).	? Check pneumatic cylinder (C.A.B.).
+
+
+
+
+
+
+* Controllare pistoncini per sollevamento ripari mobili.
+
+
+* Check small gas spring that raise mobile guards.
+
+4000
+
+
+
+
+
+
+
+* Controllare usura rotanti.	?	Check sealing wheels wearing.
+
+4000
+
+
+
+
+
+
+
+
+
+* Controllare sostituire i naselli.	?	Check pusher.
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Controllare cinghie e controllo puleggie.	? Check belts and check pulleys.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Every 200 Working HoursNotes
+
+Every 1000 Working HoursNotes
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAVANNA S.p.A.
+Automatic Packaging Machines
+Societa' con unico socio
+Direzione e coordinamento di IN.FIN.1989 S.r.l. 28077 Prato Sesia (No) - Italy - Via Matteotti, 104 Telefono (++39) - 0163829111
+Telefax (++39) - 0163829237
+Fax Service (++39) - 0163829279
+E-mail:  cavanna@cavannagroup.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
